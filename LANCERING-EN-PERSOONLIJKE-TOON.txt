@@ -1,0 +1,54 @@
+LANCERING — VASTGELEGDE PRODUCTAFSPRAAK
+
+Bij de lancering een eenmalige welkomstpop-up maken. Nog niet actief in deze
+update: dit hoort bij het voorbereiden van de echte lancering.
+
+In die pop-up legt Erik persoonlijk uit dat er hier en daar fictieve inhoud
+en illustratieve beelden staan. Ze tonen wat hij met Jouw Balans hoopt te bereiken.
+Het is de bedoeling deze voorbeelden gaandeweg te vervangen door verhalen en
+beelden van echte deelnemers. De voorbeeldkaartjes behouden nu een kort label
+Voorbeeld; de lange toelichting boven de kaarten is van de homepage verwijderd.
+
+CONCEPTTEKST VOOR DE LANCEERPOP-UP
+
+Welkom, fijn dat je er bent!
+
+Ik ben Erik en ik ben Jouw Balans begonnen vanuit mijn eigen zoektocht naar
+meer ruimte voor mezelf, mijn gezin en alles wat ik belangrijk vind.
+
+Deze plek groeit nog. Je vindt hier en daar voorbeeldverhalen en illustratieve
+beelden, waaronder met AI gemaakte foto's. Die voorbeelden zijn fictief: ze
+laten zien wat ik hoop dat deze plek voor mensen kan betekenen. Het zijn nog
+geen ervaringen van echte deelnemers.
+
+Mijn wens is dat jullie verhalen daar straks voor in de plaats komen. Kleine
+stappen, eerlijke ervaringen en mensen die elkaar helpen. Zo maken we deze
+plek samen steeds een beetje meer van ons allemaal.
+
+Kijk rustig rond. Je hoeft het niet allemaal al te weten. Ik leer zelf ook
+iedere dag bij.
+
+Erik
+
+Knop: Fijn, ik kijk even rond
+
+GEDRAG VOOR LATER
+
+- Tonen bij het eerste bezoek na lancering; na sluiten geen herhaalde onderbreking.
+- Rustig leesbaar, ook mobiel; met sluitknop, toetsenbordbediening en focusbeheer.
+- Opnieuw leesbaar maken via een vaste link over de site.
+- Bij vervangen van voorbeelden echte ervaringen als zodanig presenteren.
+- Geen automatische publicatie of lancering vanuit deze ontwerpnotitie.
+
+PERSOONLIJKE STEM
+
+De maker spreekt in de ik-vorm: Erik heeft het idee, bouwt de tool en wil anderen
+helpen. Samen en we blijven passend wanneer het gaat om de community of de
+gezamenlijke zoektocht van maker en deelnemer.
+
+Persoonlijk verhaal op de homepage bij #waarom:
+vader van drie kinderen, vijf dagen werken, daarnaast een eigen bedrijf,
+een vrouw die door omstandigheden minder energie had, veel gelezen en zelf
+coaching gehad. Erik is zelf nog onderweg. Elke dag voelen, elke week terugkijken
+en elke maand uitzoomen. De waarde van maatwerk wordt als overtuiging en ambitie
+beschreven; geen garantie dat één hulpmiddel voor iedereen werkt.

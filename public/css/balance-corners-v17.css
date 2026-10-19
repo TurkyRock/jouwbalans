@@ -1,0 +1,37 @@
+.craft-site .layered-paper-corner {
+    --corner-size: 94px;
+    position: absolute; width: var(--corner-size); height: var(--corner-size);
+    z-index: 5; pointer-events: none;
+    -webkit-mask-image: linear-gradient(135deg, #000 35%, transparent 80%);
+    mask-image: linear-gradient(135deg, #000 35%, transparent 80%);
+    filter: drop-shadow(-2px -2px 2px #26362b35);
+}
+.craft-site .layered-paper-corner::before,
+.craft-site .layered-paper-corner::after {
+    content: ''; position: absolute; inset: 0;
+    background: url('../images/balance/paper-side-v8.webp') left top / 94px 542px repeat-y;
+    -webkit-mask-image: linear-gradient(to right, #000 57%, transparent);
+    mask-image: linear-gradient(to right, #000 57%, transparent);
+}
+.craft-site .layered-paper-corner::before { clip-path: polygon(0 0, 0 100%, 100% 100%, 100% calc(100% - 2px)); }
+.craft-site .layered-paper-corner::after { clip-path: polygon(0 0, 100% 0, 0 100%); transform: rotate(90deg); }
+.craft-site .corner-top-left { left: -44px; top: -44px; }
+.craft-site .corner-top-right { right: -44px; top: -44px; transform: scaleX(-1); }
+.craft-site .corner-bottom-left { left: -44px; bottom: -44px; transform: scaleY(-1); }
+.craft-site .corner-bottom-right { right: -44px; bottom: -44px; transform: scale(-1); }
+@media(max-width:1100px) {
+ .craft-site .layered-paper-corner { --corner-size: 76px; }
+ .craft-site .layered-paper-corner::before, .craft-site .layered-paper-corner::after { background-size: 76px 438px; }
+ .craft-site .corner-top-left { left: -35px; top: -35px; }
+ .craft-site .corner-top-right { right: -35px; top: -35px; }
+ .craft-site .corner-bottom-left { left: -35px; bottom: -35px; }
+ .craft-site .corner-bottom-right { right: -35px; bottom: -35px; }
+}
+@media(max-width:600px) {
+ .craft-site .layered-paper-corner { --corner-size: 48px; }
+ .craft-site .layered-paper-corner::before, .craft-site .layered-paper-corner::after { background-size: 48px 277px; }
+ .craft-site .corner-top-left { left: -24px; top: -24px; }
+ .craft-site .corner-top-right { right: -24px; top: -24px; }
+ .craft-site .corner-bottom-left { left: -24px; bottom: -24px; }
+ .craft-site .corner-bottom-right { right: -24px; bottom: -24px; }
+}

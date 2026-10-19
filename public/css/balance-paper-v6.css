@@ -1,0 +1,197 @@
+/* Small, fixed-depth cuts keep every sheet readable at any aspect ratio. */
+:root {
+    --paper-cut: polygon(0 5px, 7% 2px, 16% 4px, 25% 0, 37% 3px, 48% 1px, 60% 4px, 73% 0, 86% 3px, calc(100% - 4px) 1px, 100% 7px, calc(100% - 3px) 24%, 100% 43%, calc(100% - 4px) 62%, 100% 81%, calc(100% - 3px) calc(100% - 3px), 88% 100%, 75% calc(100% - 3px), 61% 100%, 48% calc(100% - 2px), 34% 100%, 21% calc(100% - 4px), 8% 100%, 1px calc(100% - 3px), 4px 80%, 0 61%, 3px 42%, 0 23%);
+}
+
+/* A separate paper layer leaves keyboard focus outlines and content intact. */
+.balance-paper-site :is(.button, button) {
+    border-radius: 0;
+}
+.balance-paper-site :is(.button, .icon-button, .view-switch button) {
+    position: relative;
+    isolation: isolate;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    filter: drop-shadow(1px 3px 1px #263a292b);
+}
+.balance-paper-site :where(.button, .icon-button, .view-switch button) { --button-paper: #244d3a; }
+.balance-paper-site :is(.button, .icon-button, .view-switch button)::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: var(--paper-grain), var(--button-paper);
+    clip-path: var(--paper-cut);
+}
+.balance-paper-site :where(.button, .icon-button, .view-switch button):hover {
+    background: transparent;
+    --button-paper: #365c43;
+}
+.balance-paper-site .mustard-button,
+.balance-paper-site .page-intro > .button {
+    --button-paper: #efc24e;
+    color: #263f2e;
+}
+.balance-paper-site .mustard-button:hover,
+.balance-paper-site .page-intro > .button:hover { --button-paper: #e5b63e; }
+.balance-paper-site .cream-button { --button-paper: #fff4d9; color: #254633; }
+.balance-paper-site .cream-button:hover { --button-paper: #ecdfbf; }
+.balance-paper-site .icon-button { --button-paper: #f5edd9; }
+.balance-paper-site .icon-button:hover { --button-paper: #dedfc3; }
+.balance-paper-site .view-switch { border-radius: 0; }
+.balance-paper-site .view-switch button { --button-paper: #f4edda; }
+.balance-paper-site .view-switch button.selected { --button-paper: #70875c; }
+.balance-paper-site .text-button,
+.balance-paper-site .delete-button { border-radius: 0; }
+
+/* Visible left and right paper edges around the entire page. */
+.scrapbook-site {
+    background: linear-gradient(#49604850, #49604850), var(--scrap-stock) !important;
+    background-size: auto, 600px !important;
+}
+.scrapbook-site .site-paper-shell {
+    width: min(1320px, calc(100% - 88px));
+    margin: 32px auto;
+    padding: 14px 20px 22px;
+    border: 12px solid #f8efd9;
+    background: #f8efd9 var(--scrap-stock);
+    box-shadow: 0 8px 30px #25372345;
+}
+.scrapbook-site .site-paper-shell::before,
+.scrapbook-site .site-paper-shell::after {
+    content: '';
+    position: absolute;
+    top: -12px;
+    bottom: -12px;
+    width: 17px;
+    background: url('../images/balance/paper-side-v6.svg') left top / 17px 160px repeat-y;
+    pointer-events: none;
+    z-index: 8;
+}
+.scrapbook-site .site-paper-shell::before { left: -24px; }
+.scrapbook-site .site-paper-shell::after { right: -24px; transform: scaleX(-1); }
+.scrapbook-site .page-collage-backdrop {
+    inset: 0;
+    background-size: 100% 100%;
+}
+.scrapbook-site .page-edge-decoration { left: -16px; right: -16px; }
+.scrapbook-site .page-botanical { width: 112px; opacity: .93; }
+.scrapbook-site .page-edge-decoration .edge-left { left: -42px; }
+.scrapbook-site .page-edge-decoration .edge-right { right: -42px; }
+.scrapbook-site .page-edge-decoration .edge-lower { left: -42px; }
+
+/* The old bitmap mask had transparent side margins that swallowed text. */
+.scrapbook-site .site-header::before,
+.scrapbook-home .paper-piece::before,
+.scrap-title > span::before,
+.scrap-closing::before,
+.community-green-sheet,
+.tinted-paper::before {
+    mask: none;
+    -webkit-mask: none;
+    clip-path: var(--paper-cut);
+}
+.scrapbook-home :is(.paper-piece, .scrap-community-copy) { min-width: 0; }
+.scrapbook-home :is(h2, h3, p, blockquote, small) { overflow-wrap: break-word; }
+.program-promise > div,
+.scrap-calendar-invite > div { min-width: 0; flex: 1 1 0; }
+.program-promise,
+.scrap-calendar-invite { padding: 32px 38px 36px; }
+.scrapbook-site .site-header { padding: 27px 32px; }
+.scrapbook-home .scrap-card { padding-bottom: 28px; }
+.scrapbook-home .card-scribble { right: 6px; bottom: 15px; }
+.scrapbook-home .pink-note { right: 0; bottom: 5px; }
+.scrapbook-home .hero-note { right: 0; }
+.scrapbook-home .scrap-community-note .leaf-mark { right: 8px; bottom: 7px; width: 30px; height: 46px; }
+
+@media (min-width: 901px) {
+    .scrap-title { font-size: clamp(60px, 6.3vw, 87px); }
+    .scrap-title > span { max-width: none; }
+    .scrap-title > span:nth-child(3) { font-size: .81em; }
+    .scrap-intro { padding: 29px 30px 33px; }
+    .scrap-intro p { font-size: 15px; }
+    .scrap-community { grid-template-columns: 1fr 1.15fr .58fr; padding: 36px 30px; }
+}
+@media (max-width: 1100px) {
+    .scrapbook-site .site-paper-shell { width: calc(100% - 64px); padding: 10px 12px 18px; }
+    .scrapbook-site .site-header { flex-wrap: wrap; gap: 16px; }
+    .scrapbook-site .site-header nav { flex-wrap: wrap; }
+    .program-stickers { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .program-promise,
+    .scrap-calendar-invite { flex-direction: column; align-items: flex-start; gap: 22px; }
+    .program-promise > div,
+    .scrap-calendar-invite > div { flex: auto; }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    .scrap-hero { grid-template-columns: 1fr; }
+    .scrap-copy { width: min(100%, 550px); }
+    .scrap-title { font-size: clamp(60px, 8vw, 74px); }
+    .scrap-title > span:nth-child(3) { font-size: .8em; }
+    .scrap-intro { max-width: 520px; }
+    .scrap-intro p { font-size: 15px; }
+    .scrap-hero-art { width: 75%; justify-self: end; margin-top: -90px; height: 470px; }
+    .scrap-card-grid { grid-template-columns: 1fr; gap: 28px; padding: 0 42px; }
+    .scrap-card-photo { height: 280px; }
+    .scrap-card h2 { font-size: 30px; }
+    .scrap-card p { font-size: 15px; }
+    .scrap-card summary { font-size: 14px; }
+    .scrap-community { grid-template-columns: 1fr; padding: 32px; }
+    .scrap-group-photo { width: 100%; max-width: 420px; }
+    .scrap-community-copy > p { font-size: 15px; }
+    .story-grid { grid-template-columns: 1fr; gap: 25px; }
+    .example-story > img { height: 300px; }
+    .example-story h3 { font-size: 25px; }
+    .example-story p { font-size: 14px; }
+    .example-story blockquote { font-size: 23px; }
+}
+@media (max-width: 600px) {
+    .scrapbook-site .site-paper-shell { width: calc(100% - 36px); margin: 16px auto; border-width: 5px; padding: 5px 3px 14px; }
+    .scrapbook-site .site-paper-shell::before { left: -17px; top: -5px; bottom: -5px; }
+    .scrapbook-site .site-paper-shell::after { right: -17px; top: -5px; bottom: -5px; }
+    .scrapbook-site .page-collage-backdrop { background-size: auto 1500px; }
+    .scrapbook-site .site-header { padding: 22px 17px; }
+    .scrapbook-site .brand { font-size: 25px; }
+    .scrapbook-site .site-header nav { gap: 10px; justify-content: flex-start; }
+    .scrapbook-site .site-header nav .button { padding: 10px 17px; }
+    .scrap-hero { padding: 0 10px; }
+    .scrap-title { font-size: clamp(35px, 11vw, 63px); letter-spacing: -1.5px; }
+    .scrap-title > span { padding-left: 17px; padding-right: 17px; }
+    .scrap-title > span:nth-child(3) { font-size: clamp(23px, 7.1vw, 42px); padding-left: 17px; padding-right: 17px; }
+    .free-sticker { font-size: 21px; right: 5%; }
+    .scrap-intro { padding: 25px 21px 29px; margin-right: 0; min-height: 0; }
+    .scrap-intro p { font-size: 13px; }
+    .scrap-intro .button { max-width: 100%; font-size: 11px; padding: 13px 14px; gap: 7px; }
+    .scrap-hero-art { height: 380px; }
+    .hero-polaroid { width: 145px; }
+    .hero-polaroid > img { height: 108px; }
+    .hero-note { width: 107px; font-size: 23px; }
+    .scrap-card-grid { padding: 0 16px; }
+    .scrap-card { padding-left: 21px; padding-right: 21px; }
+    .scrap-card-photo { height: 200px; }
+    .scrap-card h2 { font-size: 25px; }
+    .program-section { margin-left: 14px; margin-right: 14px; }
+    .program-stickers { grid-template-columns: 1fr; }
+    .section-paper-heading { padding: 26px 23px 30px; }
+    .section-paper-heading h2 { font-size: 26px; }
+    .program-sticker { padding: 26px 25px 57px; }
+    .program-promise,
+    .scrap-calendar-invite { padding: 29px 24px 33px; }
+    .program-promise h3 { font-size: 24px; }
+    .scrap-community { margin-left: 9px; margin-right: 9px; padding: 28px 22px; }
+    .scrap-community h2 { font-size: 30px; }
+    .example-stories { margin-left: 16px; margin-right: 16px; }
+    .example-story { padding-left: 23px; padding-right: 23px; }
+    .scrap-calendar-invite { margin-left: 14px; margin-right: 14px; }
+    .scrap-calendar-invite h2 { font-size: 26px; }
+    .scrapbook-site .page-edge-decoration { left: -3px; right: -3px; }
+    .scrapbook-site .page-botanical { width: 78px; }
+    .scrapbook-site .page-edge-decoration .edge-left { left: -38px; }
+    .scrapbook-site .page-edge-decoration .edge-right { right: -38px; }
+    .scrapbook-site .page-edge-decoration .edge-lower { left: -38px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .balance-paper-site .button { transition: none; }
+}

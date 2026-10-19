@@ -1,0 +1,86 @@
+TOEKOMSTIGE UITBREIDING — ETEN DAT PAST BIJ JOUW WEEK
+
+Status: vastgelegd voor later; nog niet gebouwd. Geen AI-aanroepen of gegevensoverdracht.
+
+UITGANGSPUNT
+Een AI-generator voor ontbijt, lunch, tussendoortjes en diner. Eerst ontdekken wat
+je graag eet; daarna een gevarieerde, voedzame week voorstellen die aansluit op
+je agenda. Geen strak dieet of gehele onthouding. Ruimte voor gemak, plezier en
+bewust geplande genietmomenten hoort bij de balans.
+
+1. JOUW SMAAK EN PRAKTISCHE WENSEN
+Voorkeuren en gerechten die je lekker vindt, wat je niet eet, allergieën en
+intoleranties, eetpatroon, aantal eters, budget, kookmogelijkheden en tijd om te
+koken of te preppen. Houd ook rekening met het gezin en verschillende porties.
+Laat de gebruiker deze gegevens aanpassen en beoordelen vóór een plan ontstaat.
+
+2. EERST DE WEEK BEKIJKEN
+Gebruik de eigen weekplanning als vertrekpunt: werk, sporten, reistijd, gezinstijd,
+rust en afspraken. Vraag waar nodig of iemand thuis of onderweg eet en hoeveel
+kooktijd werkelijk beschikbaar is. Een lege agenda betekent niet automatisch
+vrije kooktijd. Plan eten en voorbereiding zonder belangrijke rustmomenten te
+verdringen. Sluit aan op zelf aangegeven energie en gewenste eenvoud.
+
+3. EEN VOORSTEL VOOR ELKE DAG
+Ontbijt, lunch, tussendoortjes en diner; momenten en hoeveelheden blijven
+persoonlijk en aanpasbaar. Op drukke dagen snel en makkelijk; op rustige dagen
+ruimte om te koken. Voor een sportavond bijvoorbeeld vooraf een eenvoudig
+voorstel en eventueel een meeneemoptie, zonder verplichte sportdieetregels.
+Laat per maaltijd zien waarom deze past: 'Binnen 15 minuten', 'Mee naar werk'
+of 'Gisteren voorbereid'. Geen garanties of medische voedingsadviezen door AI.
+
+4. PREPPEN IS OOK EEN AFSPRAAK
+Als voorbereiding nodig is, krijgt die een concreet tijdvak in de kalender.
+Bijvoorbeeld op een geschikt moment extra koken voor een drukke dag later in
+de week. Denk aan restjes, houdbaarheid, bewaarinstructies en afwisseling.
+Een maaltijd mag niet ongemerkt afhankelijk zijn van prep waarvoor geen tijd is.
+Bij een gewijzigde afspraak biedt de site aan alleen de betrokken maaltijden en
+boodschappen bij te stellen; bevestig wijzigingen en overschrijf niets stilzwijgend.
+
+5. GENIETMOMENTEN HOREN ERBIJ
+Vraag expliciet: 'Waar wil jij deze week ruimte maken voor iets lekkers?'
+Bijvoorbeeld een frietje met het gezin, taart bij een verjaardag of een avondje
+uit eten. De gebruiker kiest zelf wat en wanneer. Op de site noemen we dit
+'Genietmomenten', zonder oordeel, rode waarschuwing, schuldgevoel of dieetstraf.
+Geen verbod, geen volledige onthouding en geen verplicht compenseren met minder
+eten of extra sporten. Ook spontaan genieten blijft mogelijk.
+
+6. WEEKMENU EN BOODSCHAPPENLIJST
+Laat de gebruiker eerst het voorstel bekijken, gerechten wisselen, eigen
+maaltijden toevoegen, dagen verschuiven en een maaltijd overslaan. Stel na
+bevestiging de boodschappenlijst samen met de juiste hoeveelheden en eenheden,
+gegroepeerd per productcategorie. Voeg dubbele ingrediënten samen; vraag wat
+al in huis is. Houd rekening met restjes en bederfelijke producten, eventueel
+met een tweede klein boodschappenmoment later in de week. Pas alleen de nog
+relevante boodschappen aan na een bevestigde menuwijziging. Geen automatische
+bestellingen.
+
+7. PLEK IN DE SITE
+Eigen onderdeel 'Eten & boodschappen', gekoppeld aan de persoonlijke kalender.
+Maaltijden en prep krijgen herkenbare eigen labels. Weekoverzicht met wisselknop
+per maaltijd, een genietmoment toevoegen en afvinkbare boodschappenlijst.
+Voedingsvoorkeuren staan bij het account en zijn eenvoudig bij te werken.
+
+8. AI ALS VOORSTELLER, DE GEBRUIKER BESLIST
+AI-provider nog te kiezen; eerdere Gemini-wens voor vertalingen is geen besluit
+voor deze generator. Allergieën en uitgesloten ingrediënten moeten apart van
+de AI-tekst gecontroleerd worden. Geen veiligheidsgarantie op basis van AI.
+Gebruik alleen benodigde informatie voor een voorstel; stuur geen volledige
+privéagenda of dagreflecties mee. Leg vooraf uit welke gegevens worden gebruikt.
+Bewaar het bevestigde plan zodat opnieuw genereren niet steeds nodig is.
+
+AANVULLING — GEZINSSAMENSTELLING ALS BASISGEGEVEN
+Vraag hoeveel volwassenen en kinderen tot het huishouden behoren en welke
+leeftijden relevant zijn voor passende suggesties en porties. Per gezinslid:
+voorkeuren, allergieën, intoleranties en andere eetwensen. Geen afslankdoelen of
+caloriebeperking van een volwassene automatisch overnemen voor kinderen.
+Leg per eetmoment vast wie thuis mee-eet, wie een lunch meeneemt, wie elders eet
+en of er gasten zijn. Zo hoeft niet iedereen hetzelfde weekschema te volgen.
+Stel waar mogelijk één gezamenlijk gerecht voor, met passende porties en kleine
+varianten per eter. Bijvoorbeeld dezelfde basis met een apart onderdeel; niet
+standaard meerdere volledige maaltijden koken. Respecteer allergieën ook bij
+een gedeelde bereiding en verwijs voor specifieke voedingsbehoeften naar passende
+professionele begeleiding in plaats van AI-zekerheid te suggereren.
+De boodschappenlijst, restjes, prep-tijd en kosten volgen de daadwerkelijke eters
+per dag, inclusief kinderen en eventuele gasten. Niemand hoeft voor de planner
+een eigen account te hebben; gebruik een roepnaam of label als dat voldoende is.

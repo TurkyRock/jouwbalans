@@ -1,0 +1,141 @@
+JOUW BALANS — voorstel voor doelen, Groeipunten en 30 badges
+
+STATUS
+Dit is het uitgewerkte ontwerp voor de volgende bouwstap. Het punten-, doelen-
+en badgesysteem is nog niet aangesloten op de website. De privékalender werkt.
+
+KERN
+Afvallen mag een doel zijn, naast bijvoorbeeld vaker mediteren, rustiger
+opstarten, bewegen of tijd voor je gezin. De gebruiker kiest zelf wat past.
+De werknaam voor de beloning is GROEIPUNTEN: groeien in passende gewoontes,
+zelfinzicht en steun aan elkaar. Er is geen openbare ranglijst.
+
+DOELEN
+- Frequentiedoel: bijvoorbeeld drie keer per week mediteren.
+- Gewoontedoel: bijvoorbeeld na werk de laptop dicht en tien minuten afschakelen.
+- Persoonlijk gewichtsdoel: optioneel, privé en los van sociale beloningen.
+- Per doel: eigen motivatie, haalbare stap, gekozen dagen/tijd, kleine versie,
+  evaluatiemoment en keuze om te wijzigen of pauzeren.
+- Wekelijks kiezen: behouden, verkleinen, verplaatsen, vervangen of pauzeren.
+- Kleine versies mogen als een uitgevoerd moment tellen. Een gemiste dag
+  wist geen eerder behaalde punten, badges of persoonlijke voortgang.
+
+GEWICHT
+Optioneel privédossier met een zelfgekozen doel en maximaal één meetmoment per
+kalendermaand (Europe/Amsterdam), zoals afgesproken in het concept.
+Een fout in de maandinvoer kan worden gecorrigeerd; geen tweede meetmoment.
+Grafiek met eigen maandmetingen, begin- en laatste meting en optioneel doel.
+Geen dagelijkse weegmeldingen, openbare gewichten of badges voor verloren kilo's.
+Geen streefgewicht of afslanktempo automatisch adviseren. De gebruiker kiest
+of dit doel en de grafiek überhaupt zichtbaar zijn op de eigen overzichtspagina.
+
+PUNTENREGELS (VOORSTEL)
+Een dag = kalenderdag in de ingestelde tijdzone; hieronder Europe/Amsterdam.
+- Bezoekdag: +2, één keer per dag bij een betekenisvol ingelogd bezoek.
+- Een steunende like geven: +1, maximaal drie keer per dag, andere ontvangers.
+- Een inhoudelijke steunende reactie plaatsen: +5, maximaal drie per dag.
+  Alleen gepubliceerde, goedgekeurde reacties bij anderen tellen.
+- Een gekozen stap uitvoeren: +3, maximaal drie per dag, maximaal eenmaal
+  per geplande uitvoering. De kleine versie telt ook.
+- De eigen weekreflectie afronden: +10, eenmaal per kalenderweek.
+- Een persoonlijk doel voor het eerst vastleggen: +5, maximaal drie keer
+  per account. Opnieuw aanmaken van hetzelfde doel levert niets extra op.
+- Een badge voor het eerst verdienen: +10 bonus; elke badge één keer.
+- Gewicht registreren of gewicht verliezen: geen punten.
+Maximaal 40 punten per dag uit gewone activiteiten. Badgebonussen komen daar
+bovenop. Geen punten kopen, geen eigen likes of reacties op jezelf meetellen.
+
+ANTI-DUBBELTELLING
+Ieder puntmoment krijgt een unieke sleutel per gebruiker, bronactie en periode.
+Bij likes kan verwijderen en opnieuw liken dus geen tweede beloning geven.
+Bij reacties wordt pas na publicatie/moderatie beloond; verwijderde spam telt
+niet in badgecriteria. Een beheercorrectie blijft zichtbaar in het privélog.
+Gewone gemiste afspraken veroorzaken nooit een puntenaftrek.
+
+30 BADGES EN CONCRETE CRITERIA
+
+JOUW START
+01. Eerste stap — je eerste persoonlijke doel vastleggen.
+02. Eigen ritme — je eerste zelfgekozen afspraak in de kalender plannen.
+03. Klein mag ook — een kleine versie bij een doel of afspraak vastleggen.
+04. Even landen — op vijf verschillende dagen een vrijwillig gevoelsmoment invullen.
+05. Eerste inzicht — je eerste weekreflectie afronden.
+
+TERUGKOMEN
+06. Fijn dat je er bent — twee verschillende bezoekdagen.
+07. Bekend gezicht — zeven verschillende bezoekdagen.
+08. Vaste gast — dertig verschillende bezoekdagen.
+09. Eigen plekje — negentig verschillende bezoekdagen.
+10. Zachte herstart — terugkomen na minstens zeven dagen afwezigheid.
+Bezoekdagen hoeven nooit aaneengesloten te zijn.
+
+JOUW STAPPEN
+11. Op weg — één geplande persoonlijke stap uitvoeren.
+12. Vijf kleine stappen — vijf geplande stappen uitvoeren.
+13. Stevige basis — vijfentwintig geplande stappen uitvoeren.
+14. Op jouw tempo — honderd geplande stappen uitvoeren.
+15. Past bij mij — tijdens een weekreflectie bewust een doel bijstellen.
+
+RUST EN ZELFLIEFDE
+16. Ruimte voor jezelf — een eerste rust-, meditatie- of me-time-moment uitvoeren.
+17. Rust gevonden — tien van zulke momenten uitvoeren.
+18. Jouw weekritme — een zelfgekozen weekdoel voor het eerst halen,
+    bijvoorbeeld drie meditaties. Een vooraf gekozen kleine versie telt.
+19. Vriendelijke blik — vijf zelfgekozen zelfliefde- of affirmatiemomenten uitvoeren.
+20. Bewust schakelen — tien opstart-, pauze-, afschakel- of afsluitmomenten uitvoeren.
+
+ELKAAR STEUNEN
+21. Duimpje omhoog — een eerste steunende like geven aan iemand anders.
+22. Opsteker — een eerste goedgekeurde steunende reactie bij iemand plaatsen.
+23. Meelevend — tien goedgekeurde steunende reacties op verschillende bijdragen.
+24. Schouder eronder — vijfentwintig zulke reacties op verschillende bijdragen.
+25. Warm welkom — vijf verschillende nieuwe deelnemers welkom heten bij hun
+    eerste communitybijdrage, met goedgekeurde reacties.
+
+GROEI EN INZICHT
+26. Groeizaadje — vijftig Groeipunten verzamelen.
+27. Mooie groei — tweehonderdvijftig Groeipunten verzamelen.
+28. In bloei — duizend Groeipunten verzamelen.
+29. Samen verder — steunende reacties krijgen waardering van drie verschillende
+    andere deelnemers. Nooit verplicht; een like van jezelf telt niet.
+30. Jouw kompas — vier weekreflecties afronden, niet noodzakelijk achter elkaar.
+
+BADGES
+Elke badge toont pictogram, naam, betekenis, voortgang en criterium.
+Verdiend: kleur en datum. Nog niet verdiend: rustige neutrale weergave,
+geen rode achterstand of dwingend slotje. Sommige badges passen niet bij
+iedereen; het behalen van alle dertig is geen doel of vereiste.
+Geen bonuspunten voor het aantal kilo's of een hoger trainingsvolume.
+
+ACCOUNTINDELING
+1. Overzicht / Mijn balans
+   Eigen gekozen doelen bovenaan, momenten van vandaag, een kleine voortgangskaart
+   met Groeipunten en de drie laatst verdiende badges.
+2. Mijn doelen
+   Kaarten zoals "Mediteren 2 van 3 deze week" of "Afschakelen 3 van 4".
+   Per kaart: motivatie, planning, kleine versie, log en aanpassen/pauzeren.
+3. Mijn ontwikkeling
+   Eigen inzichten, weekreflecties en optionele privégewichtsgrafiek met
+   één maandmeting. Gewichtskaart kan worden verborgen.
+4. Mijn badges
+   Grid van dertig badges, filter Alles / Verdiend / Bijna daar / categorie.
+   Klik op een badge voor uitleg, voortgang en de verdieningsdatum.
+5. Mijn Groeipunten
+   Puntentotaal met begrijpelijk log, bijvoorbeeld:
+   +5 "Je steunde iemand met een reactie" of +3 "Je nam je rustmoment".
+6. Mijn profiel
+   De gebruiker kan vrijwillig maximaal drie verdiende badges op het openbare
+   communityprofiel tonen. Gewicht, persoonlijke doelen en reflecties blijven
+   standaard privé. Openbaar puntentotaal is niet nodig.
+
+MELDINGEN
+Een kleine, vriendelijke melding bij een verdiende badge; sluit automatisch
+na vijf seconden en is ook zelf te sluiten. Het profiel bewaart het resultaat.
+Geen verliesmeldingen bij een gemiste dag en geen verplichte dagelijkse reeks.
+
+IMPLEMENTATIE VOOR VOLGENDE FASE
+Tabellen voor persoonlijke doelen, uitvoeringen, maandmetingen, puntentransacties,
+badgedefinities en gebruiker-badges. Alleen de eigenaar leest privégegevens.
+Badgecriteria worden server-side bepaald op basis van toegestane bronacties.
+Maandmetingen hebben een unieke sleutel op gebruiker en kalendermaand.
+Punten en badges worden idempotent toegekend, met transacties en unieke sleutels.

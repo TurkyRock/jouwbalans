@@ -1,0 +1,77 @@
+/* The page is one sheet: the collage reaches its physical outer silhouette. */
+:root { --sans: var(--font); }
+.craft-site .site-paper-shell {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    padding: 16px 25px 24px;
+}
+.craft-site .site-paper-shell::before,
+.craft-site .site-paper-shell::after {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    width: auto;
+    height: auto;
+    border: 25px solid transparent;
+    border-image: var(--physical-paper) 75 fill / 25px stretch;
+    background: none;
+    transform: none;
+    pointer-events: none;
+    filter: none;
+    z-index: -2;
+}
+.craft-site .site-paper-shell::after {
+    inset: -12px -13px -13px -12px;
+    z-index: -3;
+    filter: sepia(.9) saturate(1.2) hue-rotate(333deg) brightness(.84) drop-shadow(0 4px 4px #29402a38);
+}
+.scrapbook-site .site-paper-shell::before { display: none; }
+.craft-site .page-collage-backdrop {
+    inset: -10px;
+    border: 0;
+    background: url('../images/balance/collage-backdrop-v5.webp') center top / 100% auto repeat-y;
+    -webkit-mask-box-image-source: url('../images/balance/collage-edge-v9.webp');
+    -webkit-mask-box-image-slice: 55 fill;
+    -webkit-mask-box-image-width: 28px;
+    -webkit-mask-box-image-repeat: stretch;
+    mask-border-source: url('../images/balance/collage-edge-v9.webp');
+    mask-border-slice: 55 fill;
+    mask-border-width: 28px;
+    mask-border-repeat: stretch;
+    pointer-events: none;
+    z-index: -1;
+    filter: drop-shadow(0 3px 3px #33422c22);
+}
+.craft-site .page-edge-decoration { left: -12px; right: -12px; }
+.craft-site .page-edge-decoration .edge-left { left: -15px; }
+.craft-site .page-edge-decoration .edge-right { right: -15px; }
+.craft-site .page-edge-decoration .edge-lower { left: -15px; }
+.craft-site .founder-portrait {
+    margin: 25px 0 26px;
+    padding: 17px 17px 16px;
+    transform: rotate(-2deg);
+    width: min(100%, 310px);
+}
+.founder-portrait > img { display: block; width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: center 35%; }
+.founder-portrait > figcaption { padding: 12px 0 2px; font: 26px/1.1 var(--hand); color: #546d43; text-align: center; }
+.founder-portrait > .scrap-tape { top: -6px; left: calc(50% - 48px); transform: rotate(5deg); }
+.founder-leaf { display: none; }
+.dark .craft-account-ui .site-paper-shell { background: none; }
+.dark .craft-account-ui .site-paper-shell::before { filter: sepia(.8) saturate(.7) hue-rotate(65deg) brightness(.3); }
+@media (max-width: 1100px) {
+    .craft-site .site-paper-shell { padding: 13px 19px 21px; }
+}
+@media (max-width: 700px) {
+    .craft-site .founder-portrait { width: min(100%, 300px); margin: 24px auto 25px; }
+}
+@media (max-width: 600px) {
+    .craft-site .site-paper-shell { width: calc(100% - 40px); padding: 7px 8px 18px; }
+    .craft-site .site-paper-shell::before { inset: -7px; border-width: 16px; border-image-width: 16px; }
+    .craft-site .site-paper-shell::after { inset: -9px -10px -10px -9px; border-width: 16px; border-image-width: 16px; }
+    .craft-site .page-collage-backdrop { inset: -7px; background-size: auto 1500px; -webkit-mask-box-image-width: 18px; mask-border-width: 18px; }
+    .craft-site .page-edge-decoration { left: -6px; right: -6px; }
+    .craft-site .page-edge-decoration .edge-left { left: -20px; }
+    .craft-site .page-edge-decoration .edge-right { right: -20px; }
+    .craft-site .page-edge-decoration .edge-lower { left: -20px; }
+}

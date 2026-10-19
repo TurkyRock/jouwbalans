@@ -1,0 +1,25 @@
+JOUW BALANS — HET WARME PLAKBOEK
+
+Gekozen richting: voorstel 2 uit de visuele ontwerpvergelijking.
+Generatie: ingebouwde ImageGen, met het gekozen ontwerp als stijlreferentie.
+De website bestaat uit echte HTML/Blade en losse assets, niet uit een afbeelding van de hele pagina.
+
+Nieuwe assets:
+public/images/balance/torn-paper-v3.webp
+public/images/balance/paper-texture-v3.webp
+public/images/balance/walking-cutout-v3.webp
+
+Originelen zijn gegenereerde PNG-bestanden, voor de website omgezet naar WebP met behoud van alpha.
+De bestaande fotokaarten en lokale lettertypen zijn hergebruikt.
+
+GEBRUIKTE PROMPTS
+
+PAPER
+Use case: photorealistic-natural. Asset type: single blank torn-paper website material, isolated transparent background. One large nearly rectangular warm ivory handmade cotton rag paper sheet seen perfectly front-on, horizontal 4:3 composition, irregular hand-torn deckle edges on ALL FOUR sides with distinctly visible fine paper fibers, tiny feathery strands, natural uneven edge thickness. Interior evenly warm cream with subtle realistic dense paper grain and very gentle creases. Paper fills 94 percent of canvas leaving transparent margins. Physical actual paper, macro material detail, no text, no printing, no objects, no tape, no extra sheets, no perspective, no dramatic shadows. Genuinely transparent outside sheet. This will be used as stretchable CSS background behind REAL HTML text; center must remain light and readable. Match the tactile ivory paper in the supplied scrapbook reference.
+
+TEXTURE
+Use case: photorealistic-natural. Asset type: seamless website paper texture. Perfectly flat front-on close-up of warm ivory recycled handmade paper, subtle visible irregular tiny tan fibers, soft natural mottling and lightly worn grain, warm light cream #f2e6cf overall. Even diffuse light with no direction or vignetting, no edge, no shapes, no text, no objects, no collage, no borders. Organic tactile fine paper texture, readable background for dark HTML text. Seamless tile, square composition.
+
+PEOPLE
+Use case: photorealistic-natural. Asset type: transparent photographic paper cutout collage for website hero. Use the supplied reference homepage as STYLE reference only. Create ONLY the right hero group: smiling ordinary curvy woman aged 35 with dark curly shoulder length hair wearing olive jacket cream top jeans and white sneakers, full body walking forward. Behind her on right a relaxed man aged 45 with rust beanie dark hiking jacket and small backpack, full body walking. Large red apple with green leaves behind woman's left shoulder; sprigs of olive leaves and tiny yellow wildflowers around feet and apple. All photographic, real texture of skin and clothing. Every cutout has narrow irregular ivory paper contour and light edge shadows. All subjects including full feet stay inside canvas with some clear margin. Genuinely transparent background. NO salad bowl, NO paper sheets, NO square background, NO words, NO lettering, NO UI. Tall composition roughly 4:5, warm natural daylight. Reproduce the handcrafted gentle scrapbook aesthetic, not fitness advertising.
+

@@ -1,0 +1,21 @@
+.craft-site .founder-journey { grid-template-columns: minmax(0, 1fr) 235px; gap: 19px 32px; align-items: center; padding: 32px 34px 27px; }
+.founder-journey-heading { min-width: 0; }
+.founder-journey-heading .eyebrow { margin-bottom: 13px; color: #687950; }
+.founder-journey-heading h2 { font: 600 clamp(27px, 3.1vw, 43px)/1.14 var(--serif); color: #274a34; letter-spacing: -.8px; }
+.founder-journey-heading > p { margin-top: 18px; max-width: 590px; font-size: 16px; line-height: 1.65; color: #465d42; }
+.craft-site .founder-journey > .founder-portrait { width: 235px; margin: 0; padding: 13px 13px 10px; justify-self: end; transform: rotate(-3deg); }
+.founder-journey .founder-portrait > figcaption { font-size: 23px; padding-top: 9px; }
+.founder-journey-notes { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 19px; margin-top: 7px; }
+.founder-note { min-width: 0; padding: 24px 23px 25px; transform: rotate(-1deg); }
+.founder-note:nth-child(2) { transform: rotate(.7deg); }
+.founder-note:nth-child(3) { transform: rotate(-.8deg); }
+.founder-note:first-child::before { filter: sepia(.35) saturate(.65) hue-rotate(35deg) brightness(.89); }
+.founder-note:nth-child(3)::before { filter: brightness(.7) sepia(1) saturate(2.324) hue-rotate(5.44deg) brightness(.926) contrast(1.128); }
+.founder-note > .scrap-tape { left: calc(50% - 40px); top: -9px; width: 80px; transform: rotate(3deg); }
+.founder-note-number { display: block; font: 26px/1 var(--hand); margin-bottom: 12px; color: #465d42; }
+.founder-note h3 { font: 600 25px/1.2 var(--serif); color: #274a34; margin-bottom: 13px; }
+.founder-note p { font: 15px/1.65 var(--font); color: #40543f; }
+.founder-journey-signoff { grid-column: 1 / -1; text-align: center; color: #586e46; font: 28px/1.25 var(--hand); margin-top: 3px; }
+.founder-journey-signoff span { white-space: nowrap; }
+@media(max-width: 1000px) { .craft-site .founder-journey { grid-template-columns: minmax(0,1fr) 200px; gap: 20px; padding: 28px; } .craft-site .founder-journey > .founder-portrait { width: 200px; } .founder-note { padding: 23px 19px; } .founder-note h3 { font-size: 22px; } }
+@media(max-width: 700px) { .craft-site .founder-journey { grid-template-columns: minmax(0,1fr); padding: 28px 23px 25px; gap: 22px; } .founder-journey-heading h2 { font-size: 30px; } .founder-journey-heading > p { font-size: 14px; margin-top: 14px; } .craft-site .founder-journey > .founder-portrait { width: min(100%, 215px); justify-self: center; } .founder-journey-notes { grid-template-columns: minmax(0,1fr); gap: 21px; margin-top: 0; } .founder-note { padding: 23px; } .founder-note-number { margin-bottom: 8px; } .founder-note h3 { font-size: 24px; margin-bottom: 10px; } .founder-note p { font-size: 14px; } .founder-journey-signoff { font-size: 25px; } }

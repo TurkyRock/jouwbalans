@@ -1,0 +1,13 @@
+.craft-site :is(.paper-piece, .today-card, .week-preview, .affirmation, .craft-form-sheet, .craft-settings-sheet, .site-header, .site-footer)::before,
+.craft-site :is(.paper-piece, .today-card, .week-preview, .affirmation, .craft-form-sheet, .craft-settings-sheet, .site-header, .site-footer)::after {
+    clip-path: none;
+    --paper-edge-masks: url('../images/balance/paper-left-v13.svg'), url('../images/balance/paper-right-v13.svg'), url('../images/balance/paper-top-v13.svg'), url('../images/balance/paper-bottom-v13.svg'), linear-gradient(#000,#000);
+    -webkit-mask-image: var(--paper-edge-masks);
+    -webkit-mask-size: 20px 240px, 20px 240px, 240px 20px, 240px 20px, calc(100% - 38px) calc(100% - 38px);
+    -webkit-mask-position: left top, right top, left top, left bottom, center;
+    -webkit-mask-repeat: repeat-y, repeat-y, repeat-x, repeat-x, no-repeat;
+    mask-image: var(--paper-edge-masks);
+    mask-size: 20px 240px, 20px 240px, 240px 20px, 240px 20px, calc(100% - 38px) calc(100% - 38px);
+    mask-position: left top, right top, left top, left bottom, center;
+    mask-repeat: repeat-y, repeat-y, repeat-x, repeat-x, no-repeat;
+}

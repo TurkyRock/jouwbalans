@@ -1,0 +1,48 @@
+EERSTE STAP — VAN PLANNEN NAAR DOEN
+
+Mijn balans en Mijn kalender hebben een kaart waarin de gebruiker zelf een
+startdatum kiest. Vandaag of een andere dag mag. De datum kan veranderen of weg.
+Geen opgelegde wachttijd, countdown, score of straf bij uitstellen.
+
+De datum wordt alleen op het eigen account opgeslagen, als users.balance_starts_on.
+De kalender toont een warme kleur en een ster met Mijn eerste stap. Dit werkt
+in maand-, week- en dagweergave, ook als een categorie is gefilterd of de dag
+geen afspraken heeft. De dashboardweek toont dezelfde markering.
+De link Bekijk mijn startdag opent direct de juiste kalendermaand.
+
+Nieuwe migratie:
+database/migrations/2026_10_19_080000_add_balance_starts_on_to_users_table.php
+
+Uitvoeren na kopiëren van de bestanden:
+php artisan optimize:clear
+php artisan migrate
+
+Geen migrate:fresh uitvoeren. Bestaande accounts houden een lege startdatum;
+bestaande afspraken worden niet veranderd of opnieuw aangemaakt.
+
+De server schrijft altijd op het ingelogde account, zonder user-id uit het
+formulier. Ongeldige datums vervangen geen opgeslagen datum. Alleen ondersteunde
+kalenderjaren 1901–2099 zijn toegestaan. Een fout in een startdaglink valt terug
+op vandaag.
+
+MENU
+
+Het menu gebruikt nu subtiele scheidingslijnen en lijniconen, geïnspireerd op
+Jouw Lichtpuntje. De normale navigatielinks staan strak naast elkaar; de primaire
+actieknoppen in de inhoud behouden hun papierkartels.
+
+Uitgelogd: Mijn verhaal, Zo werkt het, Samen, Registreren, Inloggen.
+Ingelogd: Mijn balans, Mijn kalender, Mijn account, Uitloggen.
+Mobiel: compacte Menu-knop met een native uitklapmenu in dezelfde papierstijl.
+Uitloggen blijft een POST met CSRF-bescherming.
+
+De homepageknop luidt: Vul de vragenlijst in en probeer!
+De link begint nu bij registratie. De vragenlijst is nog de volgende bouwstap.
+
+CONTROLES
+
+54 tests en 162 assertions voor bestaande functies en nieuwe startdatum.
+Extra controles: geldig opslaan/wijzigen/wissen, ongeldige datums, afscherming
+van andere gebruikers, markering in alle kalenderweergaven en startdaglinks.
+De formulieren en navigatie zijn ook in de browser gecontroleerd op desktop
+en mobiel. De persoonlijke tekst en primaire actie blijven binnen de kaders.

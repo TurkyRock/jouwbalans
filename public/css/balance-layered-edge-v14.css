@@ -1,0 +1,26 @@
+/* Photographic cream/terracotta/green paper layers, independent of card contours. */
+.craft-site .layered-paper-edge {
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    width: 94px;
+    background: url('../images/balance/paper-side-v8.webp') left top / 94px 542px repeat-y;
+    pointer-events: none;
+    z-index: 3;
+    -webkit-mask-image: linear-gradient(to right, #000 0%, #000 57%, transparent 100%);
+    mask-image: linear-gradient(to right, #000 0%, #000 57%, transparent 100%);
+    filter: drop-shadow(-3px 3px 3px #26362b50);
+}
+.craft-site .layered-paper-edge-left { left: -44px; }
+.craft-site .layered-paper-edge-right { right: -44px; transform: scaleX(-1); }
+@media(max-width: 1100px) {
+    .craft-site .layered-paper-edge { width: 76px; background-size: 76px 438px; }
+    .craft-site .layered-paper-edge-left { left: -35px; }
+    .craft-site .layered-paper-edge-right { right: -35px; }
+}
+@media(max-width: 600px) {
+    .craft-site .site-paper-shell { width: calc(100% - 58px); }
+    .craft-site .layered-paper-edge { width: 48px; background-size: 48px 277px; }
+    .craft-site .layered-paper-edge-left { left: -24px; }
+    .craft-site .layered-paper-edge-right { right: -24px; }
+}

@@ -1,0 +1,51 @@
+.craft-site .site-paper-shell { margin-top: 65px; margin-bottom: 65px; }
+.craft-site .layered-paper-edge-horizontal {
+    --edge-width: 94px;
+    --edge-span: min(1408px, calc(100vw - 16px));
+    position: absolute;
+    left: -44px;
+    right: -44px;
+    height: var(--edge-width);
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+    mask-image: linear-gradient(to right, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+    pointer-events: none;
+    z-index: 4;
+    filter: drop-shadow(0 -3px 3px #26362b50);
+}
+.craft-site .layered-paper-edge-horizontal::before {
+    content: '';
+    position: absolute;
+    width: var(--edge-width);
+    height: var(--edge-span);
+    left: 50%; top: 50%;
+    background: url('../images/balance/paper-side-v8.webp') left top / 94px 542px repeat-y;
+    -webkit-mask-image: linear-gradient(to right, #000 0%, #000 57%, transparent 100%);
+    mask-image: linear-gradient(to right, #000 0%, #000 57%, transparent 100%);
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.craft-site .layered-paper-edge-top { top: -44px; }
+.craft-site .layered-paper-edge-bottom { bottom: -44px; transform: scaleY(-1); }
+@media(max-width:1100px) {
+    .craft-site .layered-paper-edge-horizontal { --edge-width: 76px; --edge-span: calc(100vw - 34px); left: -35px; right: -35px; }
+    .craft-site .layered-paper-edge-horizontal::before { background-size: 76px 438px; }
+    .craft-site .layered-paper-edge-top { top: -35px; }
+    .craft-site .layered-paper-edge-bottom { bottom: -35px; }
+}
+@media(max-width:600px) {
+    .craft-site .site-paper-shell { margin-top: 40px; margin-bottom: 40px; }
+    .craft-site .layered-paper-edge-horizontal { --edge-width: 48px; --edge-span: calc(100vw - 10px); left: -24px; right: -24px; }
+    .craft-site .layered-paper-edge-horizontal::before { background-size: 48px 277px; }
+    .craft-site .layered-paper-edge-top { top: -24px; }
+    .craft-site .layered-paper-edge-bottom { bottom: -24px; }
+}
+
+/* Free participation uses the same physical paper and serif as the site. */
+.craft-site .scrap-copy { padding-top: 12px; }
+.craft-site .free-sticker { position: relative; inset: auto; display: table; width: max-content; max-width: 100%; margin: 0 0 24px auto; padding: 20px 23px 19px; background: transparent; clip-path: none; transform: rotate(4deg); text-align: center; line-height: 1.1; }
+.craft-site .free-sticker::before { filter: brightness(.7) sepia(1) saturate(2.324) hue-rotate(5.44deg) brightness(.926) contrast(1.128); }
+.craft-site .free-sticker strong { display: block; font: 600 32px/1.15 var(--serif); color: #244633; letter-spacing: -.6px; }
+.craft-site .free-sticker small { font: 500 13px/1.4 var(--font); margin-top: 8px; letter-spacing: 0; color: #344a32; }
+.craft-site .free-sticker > .scrap-tape { top: -9px; left: calc(50% - 40px); width: 80px; transform: rotate(-5deg); }
+@media(max-width: 700px) { .craft-site .free-sticker { margin: 0 auto 22px; padding: 18px 20px; } .craft-site .free-sticker strong { font-size: 28px; } .craft-site .free-sticker small { font-size: 12px; } }
+@media(max-width: 360px) { .craft-site .free-sticker strong { font-size: 25px; } }

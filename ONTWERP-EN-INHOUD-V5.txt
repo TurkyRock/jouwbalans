@@ -1,0 +1,36 @@
+JOUW BALANS — homepage versie 5
+
+De oorspronkelijke collage is uitgebreid tot een volledig achtergrondvlak,
+met twee zijranden en botanische fotoknipsels. Teksten, navigatie, plakkers,
+knoppen en kaarten blijven HTML/Blade; dit is geen afbeelding van de hele site.
+
+De homepage legt het gratis maatwerkconcept en de community uit.
+Voorbeeldverhalen zijn fictief en de foto's zijn met AI gegenereerd.
+De labels staan ook zichtbaar op de website. Dit zijn geen echte ervaringen.
+
+Nieuwe assets (gegenereerd met ingebouwde ImageGen):
+public/images/balance/collage-backdrop-v5.webp
+public/images/balance/botanical-edge-v5.webp
+public/images/balance/story-sanne-v5.webp
+public/images/balance/story-mark-v5.webp
+public/images/balance/story-nadia-v5.webp
+
+Losse PNG-originelen zijn behouden; de website gebruikt WebP-bestanden.
+
+Gebruikte prompts:
+
+BACKDROP
+Use case: photorealistic-natural. Asset type: full-page website BACKGROUND MATERIAL ONLY, portrait 2:3. Input image is a STYLE AND LAYOUT reference. Reconstruct ONLY the richly layered collage BACKGROUND from the supplied reference, with all content removed: NO people, NO food, NO photos, NO cards, NO buttons, NO navigation, NO logos, NO words or lettering. This is not a new web design mockup. It is a production background to place real HTML over. Cover the ENTIRE canvas edge to edge with many overlapping large sheets of textured, naturally hand-torn paper: ivory and cream, rich mustard yellow across upper third, sage and olive green broad layers through middle, terracotta irregular strips at both sides. Lower third transitions to a very broad deep forest-green sheet with an organic torn upper edge. Show exposed white paper fibers, natural thickness and subtle shadows between sheets. Colored paper must occupy at least half the total canvas, including both outer sides and interior, NOT just a beige empty center with corner accents. Color layering should flow continuously behind all content regions, like the supplied reference. Center remains readable when separate light paper text cards are overlaid later. Natural tactile macro paper grain, handmade editorial collage, asymmetrical organic torn edges. No flowers or plants in this asset, just the continuous multicolor torn-paper landscape.
+
+BOTANICAL
+Use case: photorealistic-natural. Asset type: isolated botanical paper-cutout decoration for the SIDE EDGE of a handmade wellbeing website. Create one tall slender naturally curved olive branch combined with leafy stems, a few delicate yellow daisy-like wildflowers, two small white daisies and one small dusty pink flower near the lower end. Photographically realistic leaves and petals, carefully cut from photographic paper with a narrow irregular ivory paper edge, small real paper shadows. Composition is a vertical border ornament about 1:3 ratio, foliage clusters extend sideways at intervals, naturally asymmetrical. Genuinely transparent background around all leaves, no canvas color, no paper backdrop, no people, no text, no UI. Warm earthy green foliage, natural sunlight, hand-assembled collage style matching the attached reference. The entire plant must fit within the image with a little margin, do not crop leaf tips.
+
+SANNE
+A natural candid editorial portrait of a fictional Dutch woman aged 38, shoulder length chestnut brown hair, relaxed friendly expression, ordinary body and natural skin, wearing a soft sage cardigan, sitting near a kitchen window with a cup of tea, warm daylight. Square composition, head and upper torso, approachable everyday person, no beauty retouching, no fitness aesthetic, no text or logos. Photo for a clearly labelled fictional example story on a gentle wellbeing website.
+
+MARK
+A natural candid editorial portrait of a fictional Dutch man aged 46 with short salt and pepper hair and light beard, ordinary slightly stocky body, wearing a rust colored casual overshirt, pausing on a leafy neighborhood walking path, friendly relaxed smile, warm daylight. Square composition, head and upper torso, approachable everyday person, realistic skin, no fitness aesthetic, no text or logos. Photo for a clearly labelled fictional example story on a gentle wellbeing website.
+
+NADIA
+A natural candid editorial portrait of a fictional Dutch woman aged 34 with medium brown skin and dark wavy hair tied back, ordinary body, wearing a cream top and muted terracotta knit cardigan, relaxing in a small garden after work, friendly thoughtful smile, natural skin, warm daylight. Square composition, head and upper torso, approachable everyday person, no beauty retouching, no fitness aesthetic, no text or logos. Photo for a clearly labelled fictional example story on a gentle wellbeing website.
+

@@ -1,0 +1,3 @@
+Afgeronde groen/terracotta/crème papierlagen als één transparant kader. De hoeken blijven intact via CSS negenvlakschaling; de rechte randen herhalen zodat de textuur niet over de volle paginahoogte uitrekt.
+Asset: public/images/balance/rounded-frame-v18.webp. Gemaakt met de ingebouwde beeldgenerator op basis van het bestaande materiaal.
+Prompt: één doorlopend transparant fysiek papierkader, drie lagen saliegroen/terracotta/crème, natuurlijke afgeronde hoeken, geen diagonale naden of losse hoekstukken, lege transparante middenopening.

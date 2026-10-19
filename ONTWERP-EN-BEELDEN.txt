@@ -1,0 +1,38 @@
+JOUW BALANS — ontwerp en beeldassets, versie 2
+
+De screenshots uit het concept/PDF zijn de vormgevingsreferentie. De pagina's
+blijven echte HTML/Blade met afzonderlijke tekst, links, formulieren en foto's.
+Er is geen screenshot van een volledige pagina als achtergrond gebruikt.
+
+Beeldgeneratie: ingebouwde ImageGen, vijf afzonderlijke assets.
+De gegenereerde PNG-originelen blijven behouden in de bouwomgeving. Voor de
+website zijn ze omgezet naar WebP met behoud van de transparantie van de hero.
+Geen echte gebruikers worden met deze afbeeldingen afgebeeld.
+
+Websitebestanden:
+public/images/balance/hero-collage-v2.webp
+public/images/balance/food-v2.webp
+public/images/balance/move-v2.webp
+public/images/balance/rest-v2.webp
+public/images/balance/community-v2.webp
+public/images/balance/paper-grain.svg (deterministische papiertextuur)
+
+Lettertypen: Lora, DM Sans en Caveat. Deze staan lokaal in public/fonts/balance.
+De bijbehorende SIL Open Font License-bestanden staan in dezelfde map.
+
+GEBRUIKTE BEELDPROMPTS
+
+Hero collage:
+Use case: photorealistic-natural. Asset type: transparent website hero collage, wide landscape, no text, no UI. Create an exquisite editorial paper cutout collage for a gentle Dutch wellbeing website: ordinary smiling woman aged 35 with curly dark hair, olive cardigan, cream top and jeans, natural fuller body, walking forward; behind to the right a relaxed man aged 45 in a rust knit cap and hiking jacket with small backpack. At bottom left a beautiful bowl of chickpea avocado vegetable salad, large red apple top left, broccoli, wildflowers and olive leaves around edges. People are clearly photographic with realistic skin and fabric; all subjects cut out with thin irregular warm-white paper borders and small natural shadows, like cut photos assembled by hand. Warm sage, terracotta and mustard accents. Compact overlapping balanced composition, all subjects entirely within canvas, no text or lettering. Genuinely transparent background around the collage. Natural relatable people, no fitness model aesthetic.
+
+Voeding:
+Use case: photorealistic-natural. Asset type: landscape website card photo. Close editorial photograph of ordinary adult hands cutting fresh tomatoes and vegetables on a wooden kitchen board, salad bowl nearby, warm daylight, cream and sage kitchen, natural real food, warm film grain. Landscape 3:2 framing, no text, no graphic borders, no UI.
+
+Bewegen:
+Use case: photorealistic-natural. Asset type: landscape website card photo. Relatable smiling man aged 50 with short grey hair and beard walking outdoors along a leafy path in warm autumn daylight, rust fleece and small backpack, ordinary body, relaxed enjoyable walk rather than athletic achievement, editorial lifestyle photograph, warm analog film tones, landscape composition, no text, no graphic borders.
+
+Rust:
+Use case: photorealistic-natural. Asset type: landscape website card photo. Relaxed ordinary woman aged 40 with brown hair loosely tied back, green knit sweater, sitting comfortably on a linen sofa beside a window, holding a ceramic mug in both hands, eyes closed enjoying a pause, soft warm daylight, olive leaves in background, realistic natural face and skin, gentle editorial photography, landscape composition, no text, no UI.
+
+Samen:
+Use case: photorealistic-natural. Asset type: landscape community banner photo. Four ordinary adult friends diverse in appearance and body shape, ages 30 to 55, seated in a small garden sharing tea and conversation, listening kindly and smiling naturally, two women and two men, casual earth tone clothes, inclusive realistic warm editorial lifestyle photography, soft natural light, landscape composition, no text, no UI.

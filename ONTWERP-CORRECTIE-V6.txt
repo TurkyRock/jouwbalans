@@ -1,0 +1,29 @@
+VERSIE 6 — PAGINAKADER, VEILIGE TEKSTMARGES EN PAPIERKNOPPEN
+
+De homepage staat op een begrensd collageblad met een crèmekleurige rand.
+Een herhalende kleine SVG-papierrand vormt beide zijkanten over de hele hoogte.
+De buitenachtergrond is gedempt zodat de linker- en rechterrand zichtbaar zijn.
+De collage blijft binnen dat blad. Mobiel blijven smalle buitenmarges zichtbaar.
+
+De oude rastermaskers hadden transparante zijmarges die bij brede stroken
+te ver naar binnen rekten. De nieuwe CSS-vorm heeft maximaal vier pixels
+snijdiepte. Alleen de achtergrond krijgt die vorm; teksten blijven gewone HTML.
+Programmaplakker, afsluitende aanmeldstrook en fotokaarten hebben veilige marges.
+
+Knoppen hebben hoekige knipselranden, subtiele papiertextuur en schaduw.
+Geel voor de primaire startacties, crème op de groene communitysectie en groen
+voor inloggen en de afsluitende aanmelding. Kalendernavigatie en weergavekeuzes
+gebruiken dezelfde knipselstijl. Tekstlinks blijven tekstlinks.
+
+Bestanden:
+- public/css/balance-paper-v6.css
+- public/images/balance/paper-side-v6.svg
+- resources/views/components/layouts/balance.blade.php
+
+De nieuwe stylesheet wordt na de bestaande stijlen geladen en gebruikt een
+bestandsdatum als cacheversie. Geen nieuwe dependencies of npm-build nodig.
+
+Browsercontrole: 320, 390, 600, 768, 901, 1024, 1280, 1440 en 1920 pixels.
+Geen horizontale pagina-overloop of overlopende inhoud in de papieren kaders.
+Ook de uitgeklapte tips blijven binnen beeld. Registratielink en programma-anker
+werken. De fictieve verhalen en hun labels blijven behouden.

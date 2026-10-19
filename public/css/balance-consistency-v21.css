@@ -1,0 +1,27 @@
+/* A continuous colour layer replaces the hard restart of a bitmap tile. */
+.craft-site .page-collage-backdrop {
+ background-image: url('../images/balance/paper-texture-v3.webp'), url('../images/balance/collage-continuous-v21.svg');
+ background-size: 640px 640px, 100% auto;
+ background-position: center top;
+ background-repeat: repeat, repeat-y;
+ background-blend-mode: multiply, normal;
+}
+.craft-site .page-collage-backdrop::before {
+ content: ''; position: absolute; inset: 0 0 auto; aspect-ratio: 2 / 3;
+ background: url('../images/balance/collage-backdrop-v5.webp') center top / 100% auto no-repeat;
+ -webkit-mask-image: linear-gradient(#000 65%, transparent 100%);
+ mask-image: linear-gradient(#000 65%, transparent 100%);
+}
+.craft-site .scrap-closing { font: 400 16px/1.65 var(--font); font-style: normal; padding: 18px 27px; transform: none; }
+.craft-site .scrap-closing::before { background: none; border: 13px solid transparent; border-image: var(--physical-paper) 75 fill / 13px stretch; clip-path: none; mask: none; -webkit-mask: none; filter: none; }
+.craft-site .program-promise { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 24px; }
+.craft-site .program-promise h3 { font: 600 28px/1.25 var(--serif); margin-bottom: 13px; }
+.craft-site .program-promise p { font: 400 16px/1.65 var(--font); color: #40543e; margin: 0; }
+.craft-site .program-promise .program-availability { margin-top: 13px; }
+.craft-site .program-promise .button { font: 600 15px/1.4 var(--font); }
+@media(max-width:900px) { .craft-site .program-promise { grid-template-columns: minmax(0,1fr); gap: 20px; } .craft-site .program-promise .button { justify-self: start; } }
+@media(max-width:600px) {
+ .craft-site .page-collage-backdrop { background-size: 500px 500px, auto 1500px; }
+ .craft-site .page-collage-backdrop::before { aspect-ratio: auto; height: 1500px; background-size: auto 1500px; }
+ .craft-site .program-promise h3 { font-size: 26px; }
+}

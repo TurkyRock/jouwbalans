@@ -1,0 +1,92 @@
+IDEALE WEEK EN ENERGIEBALANS — FUNCTIONEEL ONTWERP
+
+Status: volgende bouwstap; deze functies zijn nog niet als werkende tracker
+beschikbaar. De bestaande eigen kalender werkt wel.
+Aanvulling versie 8: een persoonlijke startdatum werkt nu wel op Mijn balans
+en de kalender. De dag is zichtbaar gemarkeerd, ook zonder geplande afspraken.
+De gebruiker kan wijzigen, wissen en via een link direct naar die startmaand gaan.
+
+VAN PLANNEN NAAR ERVAREN
+
+Plannen is een hulpmiddel. Blijven nadenken en plannen kan ook uitstel worden.
+Stimuleer de gebruiker om op een zelfgekozen dag één kleine stap echt te proberen.
+Van daaruit ervaren, terugkijken en het ritme stap voor stap aanpassen.
+Geen verplichte verre startdatum, druk of straf bij uitstel. Vandaag beginnen mag.
+De startdatum is privé en geen openbare belofte of score.
+
+JOUW IDEALE WEEK ALS KOMPAS
+
+1. Breng de huidige week in kaart: werk, zorg, slaap en vaste verplichtingen.
+   Wat gaat goed? Waar mis je ruimte?
+2. Maak zelf een ideale week met sport, rust, ontspanning, samen zijn, kids-time,
+   alleen zijn, werk, eten en slaap. Niet iedere categorie is voor iedereen nodig.
+3. Vergelijk wensen met beschikbare tijd. Kies één of twee kleine stappen.
+   Geef elke stap zo nodig een extra kleine versie voor een drukke dag.
+4. Zet gekozen stappen in de eigen kalender, met akkoord van de gebruiker.
+5. Kijk wekelijks terug: behouden, verkleinen, veranderen of pauzeren.
+   De ideale week verandert mee met je leven. Er komt geen perfectiescore.
+
+Bij Mijn balans: huidige planning, ideale week en eerstvolgende gekozen stap.
+Opstarten, pauzes, afschakelen na werk en dagafsluiting krijgen expliciet ruimte.
+
+ENERGIEVRETERS, ENERGIEGEVERS EN HERSTEL
+
+- Energievreters: dingen die inspanning vragen of die jij als vermoeiend ervaart.
+- Energiegevers: dingen die plezier, verbinding, motivatie of nieuwe zin geven.
+- Herstelmomenten: momenten waarvan jij merkt dat ze je helpen uitrusten.
+
+De categorieën kunnen overlappen. Een leuke avond gamen of met vrienden kan
+veel geven, terwijl je daarna toch rust nodig hebt. Plezier is geen bewijs dat
+je uitgerust bent. Omgekeerd kan gamen voor iemand ook ontspannend zijn.
+Geen automatische, universele etiketten per activiteit: persoon, duur, tijdstip
+en eigen ervaring tellen mee. Ook iets waardevols mag energie kosten.
+
+Voorbeeldplakker:
+“Een leuke avond kan je veel geven. En toch kun je daarna rust nodig hebben.”
+
+DAGLOG IN ONGEVEER VIJF MINUTEN
+
+Vaste producteis: iemand moet zijn dag in circa vijf minuten kunnen loggen.
+Eén kort formulier met vier onderdelen:
+1. Energieniveau: 0–10, van helemaal leeg tot volop energie.
+2. Humeur: een eenvoudige keuze met tekstlabels; eventueel kort toelichten.
+3. Iets positiefs: wat was fijn, klein of groot?
+4. Iets wat lastig was: wat kostte moeite of vroeg aandacht?
+
+Een onprettige dag mag ook een plek krijgen. Geen verplichte positieve draai.
+Geen lange vragenlijst, timer of prestatiedruk. Onderdelen mogen leeg blijven.
+De gebruiker kan op dezelfde dag aanvullen of corrigeren; datum duidelijk tonen.
+Daglog standaard privé, ook humeur en beide tekstvelden. Losse extra energiechecks
+blijven optioneel en veranderen het bestaande daglog niet zonder bewuste actie.
+Op het account terugvinden per dag; weekreflectie kan hierop voortbouwen.
+Nog niet geïmplementeerd in deze vormgevingsupdate.
+
+OPTIONELE ENERGIECHECK
+
+Vraag: “Hoeveel energie heb je nu?”
+Schaal 0–10, met vaste uiteinden: 0 = helemaal leeg, 10 = volop energie.
+Een zelfrapportage van dit moment, geen diagnose of objectieve meting.
+Optioneel kort toelichten: wat heb je gedaan, waar heb je behoefte aan?
+Datum en tijd bewaren in de eigen tijdzone. Invoer kunnen wijzigen/verwijderen.
+Check wanneer je wilt; optioneel een eigen ochtend- of avondmoment kiezen.
+Geen verplichting, automatische herhaalde meldingen of punten per extra invoer.
+
+Bij een activiteit kan iemand optioneel terugkijken op aparte vragen:
+- Was het fijn of betekenisvol?
+- Voel je je uitgerust, opgepept of vermoeid?
+Zo wordt plezier niet gelijkgesteld aan herstel of een hoge energiescore.
+
+TERUGKIJKEN OP JE ACCOUNT
+
+- Mijn balans: laatste energiecheck met datum en tijd, plus check-in-knop.
+- Mijn energie: privéoverzicht van metingen, dag/week/maand en optionele notities.
+- Kleine grafiek met vaste 0–10-as; ontbrekende dagen blijven leeg, nooit nul.
+- Ochtend- en avondmetingen herkenbaar houden bij het vergelijken.
+- Geen rode onvoldoende, ranglijst of beloning voor hogere scores.
+- Weekreflectie: wat gaf plezier, wat kostte energie, waar hielp herstelruimte?
+- Planning erbij tonen om eigen patronen te onderzoeken. Een samenloop is geen
+  bewijs dat een activiteit het energieniveau veroorzaakt.
+- Kies zelf één volgende kleine aanpassing; geen automatisch volgeboekte week.
+
+Privacy: metingen en notities alleen zichtbaar voor de accounteigenaar.
+Eventueel delen met de community is altijd een aparte bewuste keuze.

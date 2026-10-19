@@ -1,0 +1,64 @@
+SPEELS GEKNIPT — GEKOZEN VOORSTEL 2
+
+De gekozen stijl is een warm plakboek van handgeknipt papier: hoekige,
+onregelmatige snijlijnen, een lichte papierkern en verschoven lagen.
+De zijkanten hebben crème, salie en terracotta. De buitenachtergrond is gedempt.
+De gekleurde collage blijft binnen het homepageblad.
+
+Deze vormtaal is doorgevoerd in alle actieve pagina's via één gedeelde layout:
+- homepage;
+- Mijn balans;
+- maand-, week- en dagkalender;
+- toevoegen en wijzigen van momenten;
+- gratis registreren, inloggen, wachtwoordherstel en wachtwoord bevestigen;
+- e-mailbevestiging en tweestapsverificatie;
+- profiel-, weergave- en beveiligingsinstellingen, inclusief hun dialoogvensters.
+
+De primaire knoppen hebben echte papiertextuur, kleine asymmetrische hoeken,
+een zichtbaar crèmekleurig velletje eronder en een lichte schaduw. Geel is de
+primaire uitnodiging op de homepage en registratie. Groen en crème vullen aan.
+De achtergronden worden geknipt, niet de tekst of toetsenbordfocusrand.
+Formulierinvoer blijft rechthoekig en goed leesbaar. Kleine kalenderacties blijven
+compact zodat afspraken en roosters bruikbaar blijven.
+
+De registratiepagina is nu onderdeel van hetzelfde ontwerp: gratis aanmelden,
+persoonlijke Nederlandse introductie, rustige fotokaart op desktop en een
+overzichtelijk formulier op mobiel. De bestaande registratie en beveiliging
+blijven werken via Laravel Fortify. Er wordt geen eigen wachtwoordlogica gemaakt.
+
+VOLGENDE FUNCTIONELE STAP — NOG NIET GEBOUWD
+
+Na aanmaken en e-mailbevestiging van een nieuw account moet de persoonlijke
+startvragenlijst volgen. Bestaande gebruikers gaan naar hun overzicht.
+De vragenlijst vormt de basis voor huidige week, ideale week, doelen en eerste
+kleine stappen. Voortgang bewaren zodat iemand later kan doorgaan. Daarvoor moet
+nog een onboardingstatus met eigen route en eigenaarafscherming worden gebouwd.
+De huidige registratie blijft daarom nog doorverwijzen naar het dashboard.
+
+Het daglog moet in circa vijf minuten kunnen: energieniveau, humeur, iets
+positiefs en iets lastigs. Zie PROGRAMMA-IDEALE-WEEK-EN-ENERGIE.txt.
+
+BESTANDEN
+
+public/css/balance-cut-v7.css bevat de gedeelde stijl, na alle oudere stijlen.
+public/images/balance/cut-side-v7.svg bevat de herhalende verticale kniplagen.
+public/images/balance/cut-paper-v7.webp bevat de nieuwe materiaaltextuur.
+resources/views/components/layouts/balance.blade.php is de gedeelde layout.
+resources/views/layouts/auth.blade.php en layouts/app.blade.php gebruiken die
+layout, met behoud van Flux, Livewire, de bestaande assets en accountfuncties.
+
+BEELDMATERIAAL
+
+De nieuwe papiertextuur is met de ingebouwde beeldgenerator gemaakt en als WebP
+in het project geplaatst. Prompt: één leeg ivoorkleurig zwaar papierblad in
+landschapverhouding, recht van boven, handmatig met een schaar geknipte onregelmatige
+hoeken en snijlijnen, fijne papierkorrel, zichtbare lichte papierkern, transparante
+omgeving, geen tekst of objecten. Het gekozen voorstel 2 diende als stijlreferentie.
+De randvormen voor bediening en lange zijkanten zijn schaalbare codevormen,
+zodat tekst niet afhankelijk wordt van de verhoudingen van een rastermasker.
+
+INSTALLATIE
+
+Kopieer de inhoud van jouw-balans uit de ZIP over het bestaande Herd-project.
+Behoud je eigen .env en database. Voer php artisan optimize:clear uit en ververs
+met Ctrl+F5. Geen nieuwe dependencies of npm-build voor deze update.

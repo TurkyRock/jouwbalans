@@ -1,0 +1,21 @@
+/* Fixed-size cut contours repeat without stretching with page height. */
+.craft-site .page-collage-backdrop,
+.craft-site .site-paper-shell::before,
+.craft-site .site-paper-shell::after {
+    -webkit-mask-box-image: none;
+    mask-border-source: none;
+    --cut-masks: url('../images/balance/edge-left-v10.svg'), url('../images/balance/edge-right-v10.svg'), linear-gradient(#000, #000);
+    -webkit-mask-image: var(--cut-masks);
+    mask-image: var(--cut-masks);
+    -webkit-mask-size: 24px 480px, 24px 480px, calc(100% - 46px) 100%;
+    mask-size: 24px 480px, 24px 480px, calc(100% - 46px) 100%;
+    -webkit-mask-position: left top, right top, center top;
+    mask-position: left top, right top, center top;
+    -webkit-mask-repeat: repeat-y, repeat-y, no-repeat;
+    mask-repeat: repeat-y, repeat-y, no-repeat;
+}
+.scrapbook-site .site-paper-shell::after { display: none; }
+
+.craft-site .page-collage-backdrop, .craft-site .site-paper-shell::before, .craft-site .site-paper-shell::after { clip-path: polygon(0% 2px, 2% 5px, 4% 1px, 6% 3px, 8% 0px, 10% 4px, 12% 2px, 14% 6px, 16% 1px, 18% 3px, 20% 2px, 22% 5px, 24% 1px, 26% 3px, 28% 0px, 30% 4px, 32% 2px, 34% 6px, 36% 1px, 38% 3px, 40% 2px, 42% 5px, 44% 1px, 46% 3px, 48% 0px, 50% 4px, 52% 2px, 54% 6px, 56% 1px, 58% 3px, 60% 2px, 62% 5px, 64% 1px, 66% 3px, 68% 0px, 70% 4px, 72% 2px, 74% 6px, 76% 1px, 78% 3px, 80% 2px, 82% 5px, 84% 1px, 86% 3px, 88% 0px, 90% 4px, 92% 2px, 94% 6px, 96% 1px, 98% 3px, 100% 2px, 100% calc(100% - 4px), 98% calc(100% - 1px), 96% calc(100% - 6px), 94% calc(100% - 2px), 92% calc(100% - 4px), 90% calc(100% - 0px), 88% calc(100% - 2px), 86% calc(100% - 5px), 84% calc(100% - 3px), 82% calc(100% - 1px), 80% calc(100% - 4px), 78% calc(100% - 1px), 76% calc(100% - 6px), 74% calc(100% - 2px), 72% calc(100% - 4px), 70% calc(100% - 0px), 68% calc(100% - 2px), 66% calc(100% - 5px), 64% calc(100% - 3px), 62% calc(100% - 1px), 60% calc(100% - 4px), 58% calc(100% - 1px), 56% calc(100% - 6px), 54% calc(100% - 2px), 52% calc(100% - 4px), 50% calc(100% - 0px), 48% calc(100% - 2px), 46% calc(100% - 5px), 44% calc(100% - 3px), 42% calc(100% - 1px), 40% calc(100% - 4px), 38% calc(100% - 1px), 36% calc(100% - 6px), 34% calc(100% - 2px), 32% calc(100% - 4px), 30% calc(100% - 0px), 28% calc(100% - 2px), 26% calc(100% - 5px), 24% calc(100% - 3px), 22% calc(100% - 1px), 20% calc(100% - 4px), 18% calc(100% - 1px), 16% calc(100% - 6px), 14% calc(100% - 2px), 12% calc(100% - 4px), 10% calc(100% - 0px), 8% calc(100% - 2px), 6% calc(100% - 5px), 4% calc(100% - 3px), 2% calc(100% - 1px), 0% calc(100% - 4px)); }
+
+.founder-portrait > img.founder-original-photo { aspect-ratio: auto; height: auto; object-fit: contain; }

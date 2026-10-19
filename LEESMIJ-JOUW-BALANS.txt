@@ -1,0 +1,285 @@
+VERSIE 24 — portretten met volledige hoofden
+De drie voorbeeldportretten zijn bovenaan uitgelijnd, zodat haar en hoofden op alle schermbreedtes volledig in beeld blijven.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 23 — oorspronkelijke papiercollage over de hele achtergrond
+De hoekige vervangende ondergrond is verwijderd. De originele fotografische knipsels lopen nu over de volle pagina door, met zachte herhaalovergangen zonder harde horizontale naad.
+De afgeronde buitenrand en alle eerdere tekstaanpassingen blijven behouden.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 22 — kop boven de voorbeeldverhalen aangepast
+Wat ik hoop dat jij eruit gaat halen en hoe jij het ervaart.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+Ook in versie 21: community- en programmatoelichting minimaal 16px; afsluitstrook in dezelfde papiertint als andere kaarten. Achtergrond heeft een doorlopende kleurlaag met zachte overgang vanuit de bestaande hero-afbeelding, zonder zichtbare herstart van de collage.
+
+VERSIE 21 — consistente communityteksten
+Lopende teksten, fotobijschrift en briefje gebruiken dezelfde DM Sans-tekststijl en regelafstand. Alleen de kop is groter; geen cursieve of handgeschreven tekst en geen emoji in dit blok.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+Ook in versie 20: de intro bij Mijn verhaal is aangevuld met Eriks motivatie om mensen te helpen met de drukte van het leven in de huidige maatschappij.
+
+VERSIE 20 — verhaalicoon en geen hartjes
+Mijn verhaal heeft een boekicoon in desktop- en mobiel menu. Hartjes zijn verwijderd uit de homepage, het dashboard, registratie/inloggen en gedeelde componenten.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 19 — compactere homepage-intro
+Gratis meedoen staat rechts boven de collage; links staan de titel en introductie hoger.
+De afbeelding en binnenmarges zijn compacter zodat de onderdelen eronder eerder in beeld komen.
+Op mobiel blijft de tekst vooraan staan en volgt het plakkertje boven de afbeelding.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 18 — één afgerond papieren kader
+De losse stroken en hoekstukken zijn vervangen door één fotografisch kader met doorlopende afgeronde papierlagen.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 17 — aansluiting van de vier papierhoeken
+De horizontale en verticale lagen hebben nu overlappende hoekstukken met een zachte overgang.
+Alle eerdere functies en het eetplanner-plan blijven inbegrepen.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 16 — toekomstige eetplanner vastgelegd
+Zie TOEKOMST-ETEN-WEEKPLANNING-EN-BOODSCHAPPEN.txt. Dit is een plan voor later, nog geen actieve functie.
+De website zelf is gelijk aan versie 15.
+
+Extra in versie 15: Gratis meedoen staat groter op een geel papieren plakkertje met tape, in hetzelfde seriflettertype als de koppen.
+
+VERSIE 15 — gelaagd papier rondom
+Dezelfde fysieke zijrand loopt nu ook boven en onder de website door.
+De bestaande foto en verhaal in drie stappen blijven behouden.
+Overschrijf resources/views en public/css én public/images. Daarna php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 14 — gelaagde fysieke zijranden
+De fotografische groene, terracotta en crème papierlagen staan weer links en rechts over de volle paginahoogte.
+De binnenzijde vloeit over in de collage. Verhaal in drie stappen en echte gezinsfoto inbegrepen.
+Overschrijf resources/views en public/css én public/images. Daarna php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 13 — duidelijke papierkartels ook op contentblokken
+De vaste randcontour is nu ook op de decoratieve papierlagen van kaarten en kopbalken toegepast.
+Tekst en foto worden niet afgesneden. Verhaal in drie stappen en echte gezinsfoto inbegrepen.
+Overschrijf ook resources/views en public/css én public/images.
+Daarna: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 12 — Mijn verhaal in drie stappen
+Compacte intro met eigen gezinsfoto, drie losse papieren briefjes en korte afsluiting.
+De passage over Eriks vrouw is verwijderd uit de homepage.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 11 — eigen gezinsfoto
+De aangeleverde gezinsfoto staat volledig in beeld bij Eriks verhaal, zonder AI-bewerking.
+De papierkartels van versie 10 blijven behouden.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+VERSIE 10 — zichtbare kartels en nieuw portret
+De zijcontour herhaalt op vaste schaal en rekt niet meer mee met de paginahoogte.
+Nieuw portret vanuit de originele foto, met blik in de camera.
+Na overzetten: php artisan optimize:clear en Ctrl+F5.
+
+JOUW BALANS — Doorlopend tot de rand en persoonlijk portret (versie 9)
+
+UPDATE VANAF DE EERSTE VERSIE
+
+Kopieer de inhoud van jouw-balans uit deze ZIP over je bestaande Herd-project.
+Laat Windows de bestaande bronbestanden vervangen. Je eigen .env, database,
+vendor en node_modules staan niet in deze ZIP en blijven behouden.
+Voer daarna dit uit:
+
+   php artisan optimize:clear
+   php artisan migrate
+
+Ververs de site met Ctrl+F5. Voor deze vormgevingsupdate is GEEN npm-build nodig.
+De lettertypen en collagebeelden staan lokaal in public/fonts/balance en
+public/images/balance. De kalendergegevens blijven zoals ze zijn.
+
+NIEUW IN VERSIE 9
+
+- Voorstel 1: de collage loopt door tot de onregelmatige papieren buitenrand.
+- De verticale rechte binnenstroken en losse zijrandafbeeldingen zijn verwijderd.
+- Ook registratie en accountpagina's staan op één doorlopend papierblad.
+- Een nieuwe bewerkte foto van Erik bij zijn persoonlijke verhaal, in een fotokaart.
+  Nederlandse zomertuin in salie, donkergroen, crème en terracotta, passend bij de site.
+- De knop bij Geen magische formule heet nu Probeer het uit.
+- De onderste aanmeldknop heet nu Ik doe mee.
+- De hoofdknop bovenaan blijft Vul de vragenlijst in en probeer!
+- Geen nieuwe migratie of dependencies in versie 9. Na kopiëren optimize:clear
+  uitvoeren en Ctrl+F5. migrate blijft nodig als versie 8 nog niet was geïnstalleerd.
+
+NIEUW IN VERSIE 8
+
+- De gladde vectorlijnen zijn vervangen door beeldmateriaal van papierranden.
+- Kleine onregelmatige kartels, zichtbare papierkern, vezels en schaduw.
+- De zijkanten gebruiken echte materiaalbeelden van drie gestapelde papierlagen.
+- Titelstroken, kaarten, formulieren en knoppen krijgen fysieke papierranden.
+- De rand wordt in negen delen geschaald; kartels rekken niet met een brede knop mee.
+- De knopkleuren zijn afgestemd op het bestaande groen, geel, salie en crème.
+- Tekst en focusranden blijven buiten het beeldmasker en daardoor leesbaar.
+- Een eigen startdatum kiezen, wijzigen en wissen bij Mijn balans en kalender.
+  De startdag is gemarkeerd in maand-, week- en dagweergave. Deze functie heeft
+  één nieuwe migratie; voer dus ook php artisan migrate uit.
+- Een persoonlijk verhaal van Erik op de homepage, bij Waarom ik ben begonnen.
+- De maker spreekt op de homepage in de ik-vorm.
+- De lange toelichting boven de voorbeelden is weg; kort Voorbeeld-label behouden.
+- De lanceerpop-up is vastgelegd in LANCERING-EN-PERSOONLIJKE-TOON.txt, nog niet actief.
+- Het hoofdmenu is compacter, met iconen en scheidingslijnen zoals het voorbeeld.
+  Op mobiel opent Menu de ingelogde of uitgelogde navigatie.
+- Hoofdknop: Vul de vragenlijst in en probeer! Voorlopig naar registratie;
+  de vragenlijst is de eerstvolgende functionele bouwstap.
+- Tweetaligheid en Gemini-vertalingen zijn vastgelegd in
+  TWEETALIGHEID-NL-EN-EN-GEMINI.txt, nog niet aangesloten.
+
+NIEUW IN VERSIE 7
+
+- De gekozen stijl Speels geknipt geldt voor alle actieve pagina's.
+- Zijkanten met onregelmatige kniplijnen en zichtbare crème-, salie- en terracottalagen.
+- Knoppen met een papieren oppervlak, lichte onderlaag en asymmetrische snijranden.
+- Dezelfde vormtaal op homepage, dashboard, kalender en afspraakformulier.
+- Registratie, inloggen, wachtwoordherstel, verificatie en accountinstellingen
+  gebruiken nu dezelfde header, paginaranden en papierkaarten.
+- Gratis aanmelden heeft een eigen Nederlandse introductie en formulier.
+- Accountinstellingen behouden hun zijmenu, beveiliging en licht/donkerkeuze.
+- Daglog van circa vijf minuten vastgelegd: energie, humeur, positief en lastig.
+  Dit is een volgende bouwstap, nog geen werkend daglog.
+- Volgende stap na registratie: persoonlijke startvragenlijst, na e-mailbevestiging.
+  De vragenlijst is nog niet gebouwd; de huidige route gaat naar het dashboard.
+
+NIEUW IN VERSIE 6
+
+- Een begrensde homepage met doorlopende linker- en rechterpapierrand.
+- Een rustige achtergrond buiten het kader en de kleurencollage daarbinnen.
+- Papiervormen met kleine vaste snijdieptes: brede stroken verliezen geen tekst.
+- Ruimte rond teksten, knoppen en kaartjes; ook bij smallere schermen.
+- De primaire knoppen, kalendernavigatie en weergaveknoppen zijn papierknipsels.
+- De papiervorm zit achter de inhoud; de tekst en focusrand worden niet gemaskeerd.
+- Gecontroleerd op 320, 390, 600, 768, 901, 1024, 1280, 1440 en 1920 pixels breed.
+- Het ontwerp voor de ideale week, energiegevers/herstel en een optionele
+  energiecheck staat in PROGRAMMA-IDEALE-WEEK-EN-ENERGIE.txt. Nog niet ingebouwd.
+
+NIEUW IN VERSIE 5
+
+- Een doorlopend collagevlak van gekleurd gescheurd papier over de hele pagina.
+- Botanische fotoknipsels langs beide zijkanten, ook buiten de inhoudskolom.
+- Bovenaan duidelijk: gratis, persoonlijk en samen zoeken naar jouw balans.
+- Vier plakkers leggen het programma uit: startpunt, aanpak, ritme en bijstellen.
+- Afvallen mag een doel zijn; ook rust, mediteren en andere doelen tellen mee.
+- De community krijgt een centrale plek, met wederzijdse steun en een knipoog.
+  Ook sportieve deelnemers die aan hun bredere balans willen werken zijn welkom.
+- Drie fictieve voorbeeldverhalen met AI-beelden, duidelijk als fictief gemarkeerd.
+- Meerdere gratis-aanmeldknoppen die naar de registratiepagina verwijzen.
+- Het voorstel voor doelen, Groeipunten en alle 30 badges staat volledig in
+  DOELEN-GROEIPUNTEN-EN-BADGES.txt, inclusief accountindeling en beloningsregels.
+
+BESCHIKBAARHEID
+De kalender werkt. Vragenlijst, persoonlijke begeleiding, doelenregistratie,
+gewichtsregistratie, community en badges zijn volgende bouwstappen.
+Dat onderscheid wordt ook op de homepage vermeld.
+
+WAT IS ER NIEUW IN DE VORMGEVING?
+
+De homepage volgt nu het gekozen voorstel 2: Het warme plakboek.
+
+- Drie losse titelstroken met vezelige scheurranden.
+- Fotografische papiertextuur op de achtergrond en echte rasterassets
+  van gescheurd papier achter tekst, foto's en briefjes.
+- Nieuw fotoknipsel van de wandelaars en de appel.
+- Los opgeplakte polaroid bij de hero, washi-tape en een paperclip.
+- Fotokaarten met handgeschreven notities, tekeningen en een roze briefje.
+- Groene communitypagina met scheurranden, opgeplakte groepsfoto en los memo.
+- De teksten, navigatie, formulieren en links blijven HTML/Blade-elementen.
+- Uitklapbare tips en de link naar de eigen kalender blijven bruikbaar.
+
+De nieuwe plakboekstijl geldt voor de homepage. Mijn balans en de kalender
+behouden de eerder gebouwde papierstijl en functionaliteit.
+Alle beeldassets en lettertypen staan lokaal in het project.
+
+Ook toegevoegd: vier categorieën voor je dagritme in de kalender:
+Opstarten, Pauzemoment, Afschakelen na werk en Dag afsluiten.
+Je kunt hiervoor zelf terugkerende afspraken en een kleine versie kiezen.
+De uitwerking voor de toekomstige vragenlijst en weekreflectie staat in
+PROGRAMMA-DAGRITME.txt. Er is nog geen automatische AI-programmabouwer.
+
+INSTALLEREN IN JE BESTAANDE HERD-PROJECT (VOLLEDIGE EERSTE INSTALLATIE)
+
+1. Maak voor de zekerheid een kopie van je huidige projectmap.
+2. Pak de ZIP uit. Kopieer de INHOUD van de map jouw-balans naar:
+   C:\Users\e_tur\Herd\jouw-balans
+   Laat Windows de bestaande bronbestanden vervangen.
+   Maak dus geen extra jouw-balans-map binnen je huidige projectmap.
+3. Je eigen .env, database, vendor en node_modules blijven staan.
+   Deze download bevat die bestanden/mappen niet.
+4. Open een terminal in jouw-balans en voer uit:
+
+   php artisan optimize:clear
+   php artisan migrate
+   npm.cmd run build
+
+   Gebruik GEEN migrate:fresh: dat zou bestaande gegevens wissen.
+   De bestaande dependencies zijn niet gewijzigd; composer install is niet nodig
+   als vendor nog aanwezig is. Gebruik dezelfde Herd PHP-versie als bij aanmaken
+   (je composer.lock vereist minimaal PHP 8.4.1).
+5. Open http://jouw-balans.test via Herd. Ververs zo nodig met Ctrl+F5.
+6. Registreer een account en bevestig je e-mailadres.
+   Bij de standaard MAIL_MAILER=log staat de bevestigingslink in
+   storage/logs/laravel.log. Open de nieuwste verificatielink uit die log.
+   Heb je Herd Mail geconfigureerd, dan vind je de mail daar.
+7. Open Mijn balans en Mijn kalender. Plan je eerste eigen moment!
+
+HANDIG OM IN .env AAN TE PASSEN (optioneel)
+
+   APP_NAME="Jouw Balans"
+   APP_LOCALE=nl
+   APP_URL=http://jouw-balans.test
+
+Voer na een wijziging van .env opnieuw php artisan optimize:clear uit.
+De planning gebruikt lokale datums en tijden in Europe/Amsterdam.
+
+WAT WERKT ER?
+
+- Een publieke homepage in warme papier- en knipselvormgeving met eigen SVG-collage.
+- Mijn balans: momenten van vandaag, zeven dagen vooruit, vriendelijke gedachte.
+- Privékalender met maand-, week- en dagweergave, markering van vandaag,
+  navigatie, categorieën en filter.
+- Zelf momenten toevoegen, aanpassen en verwijderen.
+- Slaap, rust, sport/bewegen, voeding, me-time, we-time, kids-time,
+  reflectie en een eigen moment.
+- Eenmalig, dagelijks, elke werkdag of wekelijks, met optionele einddatum.
+  Voor meerdere sportdagen maak je per weekdag een eigen reeks.
+- Tijden over middernacht (bijvoorbeeld 23:00–07:00) met (+1)-aanduiding.
+  Zo'n afspraak wordt getoond op de begindatum; het is geen beschikbaarheidsrooster.
+- Een kleinere versie voor drukke dagen en eigen notities.
+- Eén moment overslaan zonder de rest van de reeks te wijzigen.
+  Direct daarna kun je dit ongedaan maken zolang de pagina open blijft.
+- Alleen de ingelogde eigenaar kan eigen afspraken zien en wijzigen.
+
+Let op: bij wijzigen van een terugkerende afspraak bewerk je de HELE reeks,
+ook eerdere momenten. Het bewerkvenster vermeldt dit nadrukkelijk.
+Op mobiel kun je het maand- en weekrooster horizontaal verschuiven.
+Dagweergave past op het smalle scherm.
+Er worden nog geen herinneringsmeldingen verstuurd.
+
+DE VOLGENDE BOUWSTAPPEN
+
+- Startvragenlijst en door de gebruiker gekozen persoonlijke aanpak.
+- AI-voorstellen, altijd pas plannen na akkoord van de gebruiker.
+- Optionele dagelijkse gevoelscheck, wekelijkse evaluatie en maandmoment.
+- Privéweegmoment maximaal één keer per kalendermaand, optioneel.
+- Zelfliefde, meditaties, inspiratie en community met zorgvuldige moderatie.
+- Idee voor later: rustige schermweergave/schermbeveiliging van je planning.
+  Een echte Windows-screensaver is nog niet ingebouwd.
+
+CONTROLES
+
+De extra testset controleert onder meer accountafscherming, validatie,
+herhalingen, schrikkeldagen, jaarovergangen, aanpassen/verwijderen en overslaan.
+De bestaande authenticatietests blijven behouden.
+Lokaal controleren:
+
+   php artisan test
+   composer lint:check
+   composer types:check
+
+Alle 54 functionele tests slagen (162 assertions), evenals opmaak- en typecontrole.
+De Blade-templates zijn gecompileerd. De vormgeving is in een browser bekeken
+op desktop en mobiel. Alle vijf beelden laden. Toevoegen, wijzigen, overslaan
+en ongedaan maken van afspraken zijn ook in de browser gecontroleerd,
+evenals de dagweergave op mobiel. Er waren geen JavaScript-fouten.
+Deze ZIP bevat geen voorbeeldgebruikers of voorbeeldafspraken.

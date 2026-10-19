@@ -1,0 +1,32 @@
+CORRECTIE PAPIERMATERIAAL — VERSIE 8
+
+De vorige uitvoering gebruikte polygonen met weinig hoeken. Dat leverde gladde
+zigzaglijnen op, terwijl het gekozen concept kleine fysieke papierkartels toont.
+Deze correctie gebruikt materiaalbeelden in plaats van die contourbenadering.
+
+Nieuwe assets:
+- public/images/balance/paper-side-v8.webp: gelaagde crème, terracotta en salie,
+  transparante buitenrand, zichtbare lichte papierkern en onregelmatige vezels.
+- public/images/balance/paper-frame-v8.webp: blanco neutraal papier met kartels,
+  transparante buitenrand en natuurlijke schaduw, gebruikt voor negenvlaksschaling.
+- public/css/balance-material-v8.css: gedeelde correctie, na versie 7 geladen.
+
+Bij brede knoppen en stroken worden hoek- en randdelen apart geschaald, zodat
+de papierkern en kleine kartels herkenbaar blijven. Alleen de achtergrond is
+beeldmateriaal; tekst, bediening, invulvelden en focus blijven HTML-elementen.
+Kleuren komen via CSS op hetzelfde neutrale papier, met behoud van de textuur.
+De laag eronder blijft licht. Afspraakgegevens en registratiegedrag zijn ongewijzigd.
+
+Beeldgeneratie: ingebouwde imagegen, met voorstel 2 als materiaalreferentie.
+Prompt zijrand: verticale fysieke papierstrook, crème toplaag met terracotta en
+salie eronder, kleine onregelmatige kartels en vezels, lichte papierkern en kleine
+schaduwen, direct van boven, transparant links en vol papier rechts, geen tekst.
+Prompt kaderrand: één blanco ivoorkleurig zwaar papierblad, kleine asymmetrische
+kartels en snedes, zichtbare lichte papierkern, fijne korrel, transparante omgeving,
+geen tekst of objecten, vlak van boven, veilige volledig dichte middenruimte.
+Beelden zijn als WebP voorbereid; voor de kaderrand zijn lege buitenmarges verwijderd.
+
+Controle: homepage, registratie en inloggen op 1440, 768, 390 en 320 pixels.
+Materiaalbeelden worden geladen en geen horizontale pagina-overloop gevonden.
+Browsercontrole van aanmelden, inloggen, profiel opslaan en kalenderafspraak bewaren.
+Blade-templates gecompileerd. Geen npm-build of nieuwe dependencies nodig.

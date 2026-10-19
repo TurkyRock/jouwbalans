@@ -1,0 +1,9 @@
+/* Original photographic paper throughout; no polygon substitute or white strokes. */
+.craft-site .page-collage-backdrop {
+ background-image: url('../images/balance/collage-overlap-v23.svg');
+ background-size: 100% auto;
+ background-position: center top;
+ background-repeat: repeat-y;
+ background-blend-mode: normal;
+}
+@media(max-width:600px) { .craft-site .page-collage-backdrop { background-size: auto 1500px; } }

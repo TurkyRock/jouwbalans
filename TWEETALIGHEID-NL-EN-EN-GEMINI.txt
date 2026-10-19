@@ -1,0 +1,32 @@
+PRODUCTEIS — NEDERLANDS EN ENGELS
+
+Status: volgende bouwstap; de huidige site is nog niet volledig tweetalig en
+Gemini is nog niet aangesloten. Er zijn nog geen communityberichten om te vertalen.
+
+INTERFACE
+- NL standaard, EN via taalkeuze; voorkeur onthouden.
+- Knoppen, navigatie, formulieren, validatie, vragenlijst en e-mails in beide talen.
+- Vaste teksten uit Laravel-taalbestanden, gecontroleerd vertaald en versieerbaar.
+- Geen live AI-aanroep bij iedere paginabezoeker.
+
+COMMUNITYBERICHTEN
+- Originele taal en originele tekst altijd bewaren.
+- Nederlandse berichten naar Engels en Engelse berichten naar Nederlands via Gemini.
+- Vertaling eenmalig op de achtergrond maken en opslaan, tonen in de gekozen taal.
+- Duidelijk label Automatisch vertaald en een mogelijkheid het origineel te lezen.
+- Een aangepast bericht krijgt een nieuwe vertaling; verouderde vertalingen niet
+  stilzwijgend als actueel tonen. Fouten mogen originele publicatie niet wissen.
+- Namen, links, betekenis en toon bewaren; tekst in het bericht als data behandelen,
+  niet als instructies aan de vertaalservice. HTML beperken of veilig escapen.
+- Geen automatische publicatie van aanvullende, door de AI verzonnen inhoud.
+- Fallback bij een fout: origineel tonen met een melding dat vertaling nog volgt.
+
+PRIVACY EN INSTELLINGEN
+- Privédaglog, gewicht, vragenlijst en privéplanning niet standaard naar Gemini sturen.
+- API-sleutel alleen in serverconfiguratie, nooit in browser of download opnemen.
+- Model, limieten, wachtrij, retries en kostenplafond instelbaar maken.
+- Voor ingebruikname actuele Gemini-API, beschikbaar model en gegevensvoorwaarden
+  verifiëren; op dit moment is geen sleutel ingevoerd en zijn geen berichten verstuurd.
+
+Technische route: Laravel-locale voor interface, berichtvertalingen per taal en
+inhoudsversie, een herhaalbare vertaaljob en één Gemini-service achter die job.

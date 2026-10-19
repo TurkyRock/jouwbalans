@@ -1,0 +1,52 @@
+VERSIE 9 — GEKOZEN VOORSTEL 1
+
+De website krijgt één doorlopend papierblad. De homepagecollage loopt door tot
+de onregelmatige buitenrand; de aparte verticale crème zijstroken zijn weg.
+De andere pagina's gebruiken dezelfde constructie met neutraal papier.
+De inhoud behoudt veilige marges, los van de achtergrondvorm.
+
+Bestanden:
+- public/css/balance-edge-v9.css
+- public/images/balance/collage-edge-v9.webp
+- public/images/balance/erik-portrait-v10.webp
+- resources/views/components/layouts/balance.blade.php
+- resources/views/welcome.blade.php
+
+De buitenvorm wordt apart van de papiertextuur geschaald. De gekleurde textuur
+herhaalt op een natuurlijke maat, zodat die op lange mobiele pagina's niet in
+verticale strepen wordt uitgerekt. De contour wordt via een negenvlaksmasker
+toegepast, met WebKit- en standaard mask-border-declaraties.
+
+PERSOONLIJK PORTRET
+
+Bij #waarom staat een portret op basis van de door Erik aangeleverde foto.
+Na zijn feedback is een zomerse versie gebruikt, met dezelfde kleding en een
+natuurlijke uitsnede. De matte kleuren zijn afgestemd op salie, bosgroen, crème
+en terracotta van de website. Het web voegt een
+papieren fotokaart, tape en het onderschrift Ook ik blijf leren toe.
+
+De portretbewerking en collagecontour zijn gemaakt met de ingebouwde beeldgenerator.
+Prompt portret: identiteit en oorspronkelijke gezichtsuitdrukking uit de originele
+foto bewaren, uitsnede vanaf de romp, originele geruite blouse en zwart shirt,
+Nederlandse zomertuin in gedempt salie, donkergroen, crème en terracotta. Zacht
+diffuus daglicht, matte fotografische kleuren, subtiele analoge korrel. Huid,
+kleding en achtergrond hetzelfde rustige licht; geen glossy huid, glamour,
+overdreven gouden bokeh, studio-uitstraling, tekst of kader in de afbeelding.
+Prompt collage: bestaande gekleurde papiercollage behouden, alleen de buitenomtrek
+onregelmatig en transparant maken, de kleuren door tot de buitenrand, geen verticale
+crème strook of rechthoekig binnenkader, geen tekst of mensen.
+
+KNOPTEKSTEN
+
+Bovenaan: Vul de vragenlijst in en probeer!
+Bij Geen magische formule: Probeer het uit
+Onderaan: Ik doe mee
+Deze links beginnen nu nog bij registratie; de vragenlijst volgt in de volgende fase.
+
+Controle: homepage, registratie en inloggen op 1440, 768, 390 en 320 pixels.
+De foto en papierassets laden; geen horizontale pagina-overloop. Knopteksten
+gecontroleerd. Bestaande functies zijn niet gewijzigd.
+
+PORTRETUPDATE V10: opnieuw vanuit de originele foto, dichter gekadreerd en blik recht in de camera. Nederlandse zomertuin en neutraal daglicht.
+
+UPDATE V11: het gegenereerde portret is vervangen door public/images/balance/erik-family-v11.webp, de echte aangeleverde gezinsfoto. Volledige verhouding behouden, uitsluitend WebP-formaatconversie.

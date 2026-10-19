@@ -1,0 +1,13 @@
+JOUW BALANS — correctie op het warme plakboek
+
+Papiervezels en scheurranden worden onafhankelijk van elkaar geschaald.
+Daardoor wordt de korrel niet meer horizontaal uitgerekt op lange stroken.
+De kaarten zijn lichter dan de achtergrond, de compositie is compacter en
+de typografie staat dichter bij het gekozen voorstel.
+Het losse fotootje bij de hero toont nu een salade in plaats van de kookfoto.
+
+Nieuw beeld: public/images/balance/salad-v4.webp
+Gegenereerd met ingebouwde ImageGen; als WebP opgeslagen voor de website.
+
+Prompt:
+Use case: photorealistic-natural. Asset type: square editorial food photograph for a small taped polaroid in a handmade wellbeing website. A single generous ceramic bowl of colorful fresh salad with sliced avocado, chickpeas, cherry tomatoes, leafy greens and roasted sweet potato, on a warm pale natural kitchen table. Close three-quarter overhead view, bowl fills most of image, natural side daylight, warm inviting muted earthy colors, appetizing real food texture. No people, no hands, no text, no lettering, no border, no UI, no extra plates. Photographic, not illustration. Square composition.

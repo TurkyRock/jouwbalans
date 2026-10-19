@@ -1,0 +1,2 @@
+/* Preserve headroom in every responsive portrait crop. */
+.craft-site .example-story > img { object-position: center top; }
